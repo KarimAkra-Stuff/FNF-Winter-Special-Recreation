@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="LOGO.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="logo bump0000" x="1" y="1" width="1237" height="846" frameX="-15" frameY="-9" frameWidth="1267" frameHeight="864"/>
+	<SubTexture name="logo bump0001" x="1239" y="1" width="1267" height="864"/>
+	<SubTexture name="logo bump0002" x="1239" y="1" width="1267" height="864"/>
+	<SubTexture name="logo bump0003" x="1" y="866" width="1254" height="856" frameX="-7" frameY="-4" frameWidth="1267" frameHeight="864"/>
+	<SubTexture name="logo bump0004" x="1" y="866" width="1254" height="856" frameX="-7" frameY="-4" frameWidth="1267" frameHeight="864"/>
+	<SubTexture name="logo bump0005" x="1256" y="866" width="1252" height="855" frameX="-8" frameY="-4" frameWidth="1267" frameHeight="864"/>
+	<SubTexture name="logo bump0006" x="1256" y="866" width="1252" height="855" frameX="-8" frameY="-4" frameWidth="1267" frameHeight="864"/>
+	<SubTexture name="logo bump0007" x="1256" y="866" width="1252" height="855" frameX="-8" frameY="-4" frameWidth="1267" frameHeight="864"/>
+	<SubTexture name="logo bump0008" x="1256" y="866" width="1252" height="855" frameX="-8" frameY="-4" frameWidth="1267" frameHeight="864"/>
+	<SubTexture name="logo bump0009" x="1256" y="866" width="1252" height="855" frameX="-8" frameY="-4" frameWidth="1267" frameHeight="864"/>
+</TextureAtlas>

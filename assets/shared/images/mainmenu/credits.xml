@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="credits.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="credits basic0000" x="0" y="0" width="248" height="133" frameX="0" frameY="0" frameWidth="251" frameHeight="134"/>
+	<SubTexture name="credits basic0001" x="0" y="0" width="248" height="133" frameX="0" frameY="0" frameWidth="251" frameHeight="134"/>
+	<SubTexture name="credits basic0002" x="253" y="0" width="250" height="133" frameX="-1" frameY="-1" frameWidth="251" frameHeight="134"/>
+	<SubTexture name="credits basic0003" x="253" y="0" width="250" height="133" frameX="-1" frameY="-1" frameWidth="251" frameHeight="134"/>
+	<SubTexture name="credits select0000" x="508" y="0" width="250" height="133" frameX="-110" frameY="-69" frameWidth="361" frameHeight="205"/>
+	<SubTexture name="credits select0001" x="0" y="138" width="361" height="194" frameX="0" frameY="-8" frameWidth="361" frameHeight="205"/>
+	<SubTexture name="credits select0002" x="0" y="138" width="361" height="194" frameX="0" frameY="-8" frameWidth="361" frameHeight="205"/>
+	<SubTexture name="credits select0003" x="366" y="138" width="359" height="203" frameX="-1" frameY="-2" frameWidth="361" frameHeight="205"/>
+	<SubTexture name="credits select0004" x="366" y="138" width="359" height="203" frameX="-1" frameY="-2" frameWidth="361" frameHeight="205"/>
+	<SubTexture name="credits select0005" x="0" y="346" width="358" height="203" frameX="-1" frameY="-1" frameWidth="361" frameHeight="205"/>
+	<SubTexture name="credits select0006" x="0" y="346" width="358" height="203" frameX="-1" frameY="-1" frameWidth="361" frameHeight="205"/>
+	<SubTexture name="credits select0007" x="363" y="346" width="357" height="204" frameX="-1" frameY="0" frameWidth="361" frameHeight="205"/>
+	<SubTexture name="credits select0008" x="363" y="346" width="357" height="204" frameX="-1" frameY="0" frameWidth="361" frameHeight="205"/>
+	<SubTexture name="credits select loop0000" x="0" y="346" width="358" height="203" frameX="0" frameY="-1" frameWidth="361" frameHeight="205"/>
+	<SubTexture name="credits select loop0001" x="0" y="346" width="358" height="203" frameX="0" frameY="-1" frameWidth="361" frameHeight="205"/>
+	<SubTexture name="credits select loop0002" x="363" y="346" width="357" height="204" frameX="0" frameY="0" frameWidth="361" frameHeight="205"/>
+	<SubTexture name="credits select loop0003" x="363" y="346" width="357" height="204" frameX="0" frameY="0" frameWidth="361" frameHeight="205"/>
+</TextureAtlas>

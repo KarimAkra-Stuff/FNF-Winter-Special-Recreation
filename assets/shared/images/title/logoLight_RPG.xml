@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="logoLight_RPG.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="light bump0000" x="1" y="1" width="527" height="593" frameX="-15" frameY="-8" frameWidth="542" frameHeight="608"/>
+	<SubTexture name="light bump0001" x="529" y="1" width="539" height="608" frameX="0" frameY="0" frameWidth="542" frameHeight="608"/>
+	<SubTexture name="light bump0002" x="529" y="1" width="539" height="608" frameX="0" frameY="0" frameWidth="542" frameHeight="608"/>
+	<SubTexture name="light bump0003" x="1069" y="1" width="534" height="603" frameX="-6" frameY="-3" frameWidth="542" frameHeight="608"/>
+	<SubTexture name="light bump0004" x="1069" y="1" width="534" height="603" frameX="-6" frameY="-3" frameWidth="542" frameHeight="608"/>
+	<SubTexture name="light bump0005" x="1604" y="1" width="533" height="601" frameX="-7" frameY="-4" frameWidth="542" frameHeight="608"/>
+	<SubTexture name="light bump0006" x="1604" y="1" width="533" height="601" frameX="-7" frameY="-4" frameWidth="542" frameHeight="608"/>
+	<SubTexture name="light bump0007" x="1604" y="1" width="533" height="601" frameX="-7" frameY="-4" frameWidth="542" frameHeight="608"/>
+	<SubTexture name="light bump0008" x="1604" y="1" width="533" height="601" frameX="-7" frameY="-4" frameWidth="542" frameHeight="608"/>
+	<SubTexture name="light bump0009" x="1604" y="1" width="533" height="601" frameX="-7" frameY="-4" frameWidth="542" frameHeight="608"/>
+</TextureAtlas>

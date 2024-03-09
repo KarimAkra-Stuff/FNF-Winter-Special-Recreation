@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bf-holding-gf_TITLE.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf holding gf bop0000" x="0" y="0" width="1029" height="709" frameX="-10" frameY="-4" frameWidth="1046" frameHeight="713"/>
+	<SubTexture name="bf holding gf bop0001" x="0" y="0" width="1029" height="709" frameX="-10" frameY="-4" frameWidth="1046" frameHeight="713"/>
+	<SubTexture name="bf holding gf bop0002" x="1034" y="0" width="1030" height="710" frameX="-10" frameY="-3" frameWidth="1046" frameHeight="713"/>
+	<SubTexture name="bf holding gf bop0003" x="1034" y="0" width="1030" height="710" frameX="-10" frameY="-3" frameWidth="1046" frameHeight="713"/>
+	<SubTexture name="bf holding gf bop0004" x="2069" y="0" width="1043" height="712" frameX="-2" frameY="0" frameWidth="1046" frameHeight="713"/>
+	<SubTexture name="bf holding gf bop0005" x="2069" y="0" width="1043" height="712" frameX="-2" frameY="0" frameWidth="1046" frameHeight="713"/>
+	<SubTexture name="bf holding gf bop0006" x="0" y="717" width="1046" height="712" frameX="0" frameY="0" frameWidth="1046" frameHeight="713"/>
+	<SubTexture name="bf holding gf bop0007" x="0" y="717" width="1046" height="712" frameX="0" frameY="0" frameWidth="1046" frameHeight="713"/>
+	<SubTexture name="bf holding gf bop0008" x="0" y="717" width="1046" height="712" frameX="0" frameY="0" frameWidth="1046" frameHeight="713"/>
+	<SubTexture name="bf holding gf bop0009" x="0" y="717" width="1046" height="712" frameX="0" frameY="0" frameWidth="1046" frameHeight="713"/>
+	<SubTexture name="bf holding gf bop0010" x="0" y="717" width="1046" height="712" frameX="0" frameY="0" frameWidth="1046" frameHeight="713"/>
+	<SubTexture name="bf holding gf bop0011" x="0" y="717" width="1046" height="712" frameX="0" frameY="0" frameWidth="1046" frameHeight="713"/>
+	<SubTexture name="bf holding gf bop0012" x="0" y="717" width="1046" height="712" frameX="0" frameY="0" frameWidth="1046" frameHeight="713"/>
+	<SubTexture name="bf holding gf bop0013" x="0" y="717" width="1046" height="712" frameX="0" frameY="0" frameWidth="1046" frameHeight="713"/>
+	<SubTexture name="bf holding gf bop0014" x="0" y="717" width="1046" height="712" frameX="0" frameY="0" frameWidth="1046" frameHeight="713"/>
+	<SubTexture name="bf holding gf confirm_10000" x="1051" y="717" width="1026" height="719" frameX="-12" frameY="0" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_10001" x="1051" y="717" width="1026" height="719" frameX="-12" frameY="0" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_10002" x="2082" y="717" width="1043" height="709" frameX="-1" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_10003" x="2082" y="717" width="1043" height="709" frameX="-1" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_10004" x="0" y="1441" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_10005" x="0" y="1441" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_10006" x="0" y="1441" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_10007" x="0" y="1441" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_10008" x="0" y="1441" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_10009" x="0" y="1441" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_10010" x="0" y="1441" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_10011" x="0" y="1441" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_10012" x="0" y="1441" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_10013" x="0" y="1441" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_10014" x="0" y="1441" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_20000" x="1051" y="1441" width="1026" height="719" frameX="-12" frameY="0" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_20001" x="1051" y="1441" width="1026" height="719" frameX="-12" frameY="0" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_20002" x="2082" y="1441" width="1043" height="709" frameX="-1" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_20003" x="2082" y="1441" width="1043" height="709" frameX="-1" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_20004" x="0" y="2165" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_20005" x="0" y="2165" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_20006" x="0" y="2165" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_20007" x="0" y="2165" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_20008" x="0" y="2165" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_20009" x="0" y="2165" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_20010" x="0" y="2165" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_20011" x="0" y="2165" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_20012" x="0" y="2165" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_20013" x="0" y="2165" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+	<SubTexture name="bf holding gf confirm_20014" x="0" y="2165" width="1046" height="709" frameX="0" frameY="-10" frameWidth="1046" frameHeight="719"/>
+</TextureAtlas>

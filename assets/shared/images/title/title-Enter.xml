@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="title-Enter.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="title-text-confirm0000" x="1" y="1" width="905" height="340"/>
+	<SubTexture name="title-text-confirm0001" x="1" y="342" width="905" height="340"/>
+	<SubTexture name="title-text-confirm0002" x="0" y="0" width="1" height="1"/>
+	<SubTexture name="title-text-confirm0003" x="1" y="342" width="905" height="340"/>
+	<SubTexture name="title-text-confirm0004" x="1" y="1" width="905" height="340"/>
+	<SubTexture name="title-text-confirm0005" x="0" y="0" width="1" height="1"/>
+	<SubTexture name="title-text-confirm0006" x="1" y="342" width="905" height="340"/>
+	<SubTexture name="title-text-loop0000" x="1" y="683" width="905" height="340"/>
+</TextureAtlas>

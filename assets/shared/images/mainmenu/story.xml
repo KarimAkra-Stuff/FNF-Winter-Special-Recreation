@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="story.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="story basic0000" x="0" y="0" width="993" height="238" frameX="0" frameY="0" frameWidth="994" frameHeight="239"/>
+	<SubTexture name="story basic0001" x="0" y="0" width="993" height="238" frameX="0" frameY="0" frameWidth="994" frameHeight="239"/>
+	<SubTexture name="story basic0002" x="998" y="0" width="994" height="238" frameX="0" frameY="-1" frameWidth="994" frameHeight="239"/>
+	<SubTexture name="story basic0003" x="998" y="0" width="994" height="238" frameX="0" frameY="-1" frameWidth="994" frameHeight="239"/>
+	<SubTexture name="story select0000" x="0" y="243" width="939" height="222" frameX="-7" frameY="-39" frameWidth="977" frameHeight="287"/>
+	<SubTexture name="story select0001" x="944" y="243" width="977" height="287"/>
+	<SubTexture name="story select0002" x="944" y="243" width="977" height="287"/>
+	<SubTexture name="story select0003" x="0" y="535" width="955" height="267" frameX="-5" frameY="-10" frameWidth="961" frameHeight="273"/>
+	<SubTexture name="story select0004" x="0" y="535" width="955" height="267" frameX="-5" frameY="-10" frameWidth="961" frameHeight="273"/>
+	<SubTexture name="story select0005" x="960" y="535" width="961" height="272" frameX="0" frameY="-4" frameWidth="961" frameHeight="273"/>
+	<SubTexture name="story select0006" x="960" y="535" width="961" height="272" frameX="0" frameY="-4" frameWidth="961" frameHeight="273"/>
+	<SubTexture name="story select loop0000" x="0" y="535" width="955" height="267" frameX="-5" frameY="-10" frameWidth="961" frameHeight="273"/>
+	<SubTexture name="story select loop0001" x="0" y="535" width="955" height="267" frameX="-5" frameY="-10" frameWidth="961" frameHeight="273"/>
+	<SubTexture name="story select loop0002" x="960" y="535" width="961" height="272" frameX="-1" frameY="-4" frameWidth="961" frameHeight="273"/>
+	<SubTexture name="story select loop0003" x="960" y="535" width="961" height="272" frameX="-1" frameY="-4" frameWidth="961" frameHeight="273"/>
+</TextureAtlas>
