@@ -54,10 +54,10 @@ class TitleState extends MusicBeatState
 	var accepted:Bool = false;
 
 	var lightsRGBs:Array<Array<FlxColor>>  = 
-	[[0x49910a, 0x91c95f],
-	[0xd47719, 0xd69b60],
-	[0x1a6dba, 0x529bde],
-	[0xba1bcf, 0xd263e0],
+	[[0x85ff59, 0x91c95f],
+	[0xff9900, 0xfcc46f],
+	[0x03a7ff, 0x60baeb],
+	[0xf763df, 0xfc95ec],
 	[0xf50707, 0xf26d6d]];
 
 	override public function create():Void
