@@ -50,8 +50,6 @@ class TitleState extends MusicBeatState
 	var mustUpdate:Bool = false;
 
 	public static var updateVersion:String = '';
-	
-	var accepted:Bool = false;
 
 	var lightsRGBs:Array<Array<FlxColor>>  = 
 	[[0x85ff59, 0x91c95f],
@@ -294,7 +292,6 @@ class TitleState extends MusicBeatState
 		{	
 			if(pressedEnter)
 			{
-				accepted = true;
 				titleText.color = FlxColor.WHITE;
 				titleText.alpha = 1;
 				
@@ -381,7 +378,7 @@ class TitleState extends MusicBeatState
 
 		if(logoBl != null)
 			logoBl.animation.play('bump', true);
-		if(bfHoldingGf != null && !accepted)
+		if(bfHoldingGf != null && !transitioning)
 			bfHoldingGf.animation.play('bop', true);
 		if(logoLights != null)
 			logoLights.animation.play('bump', true);
@@ -442,12 +439,12 @@ class TitleState extends MusicBeatState
 	}
 
 	function colorTween(){
-		if(!accepted){
+		if(!transitioning){
 			if(titleText.color == titleTextColors[0])
 				FlxTween.color(titleText, FlxG.random.float(0.8, 1.2), titleTextColors[0],  titleTextColors[1], {onComplete: (twn) -> {colorTween();}});
 			else
 				FlxTween.color(titleText, FlxG.random.float(0.8, 1.2), titleTextColors[1],  titleTextColors[0], {onComplete: (twn) -> {colorTween();}});
 		}
-		if(accepted) titleText.color = FlxColor.WHITE;
+		if(transitioning) titleText.color = FlxColor.WHITE;
 	}
 }

@@ -11,7 +11,6 @@ import haxe.Json;
 
 import backend.Song;
 import backend.Section;
-import states.stages.objects.TankmenBG;
 
 typedef CharacterFile = {
 	var animations:Array<AnimArray>;
@@ -125,14 +124,6 @@ class Character extends FlxSprite
 		if(animOffsets.exists('singLEFTmiss') || animOffsets.exists('singDOWNmiss') || animOffsets.exists('singUPmiss') || animOffsets.exists('singRIGHTmiss')) hasMissAnimations = true;
 		recalculateDanceIdle();
 		dance();
-
-		switch(curCharacter)
-		{
-			case 'pico-speaker':
-				skipDance = true;
-				loadMappedAnims();
-				playAnim("shoot1");
-		}
 	}
 
 	public function loadCharacterFile(json:Dynamic)
@@ -263,21 +254,6 @@ class Character extends FlxSprite
 			finishAnimation();
 		}
 
-		switch(curCharacter)
-		{
-			case 'pico-speaker':
-				if(animationNotes.length > 0 && Conductor.songPosition > animationNotes[0][0])
-				{
-					var noteData:Int = 1;
-					if(animationNotes[0][1] > 2) noteData = 3;
-
-					noteData += FlxG.random.int(0, 1);
-					playAnim('shoot' + noteData, true);
-					animationNotes.shift();
-				}
-				if(isAnimationFinished()) playAnim(getAnimationName(), false, false, animation.curAnim.frames.length - 3);
-		}
-
 		if (getAnimationName().startsWith('sing')) holdTimer += elapsed;
 		else if(isPlayer) holdTimer = 0;
 
@@ -366,44 +342,29 @@ class Character extends FlxSprite
 
 	public function playAnim(AnimName:String, Force:Bool = false, Reversed:Bool = false, Frame:Int = 0):Void
 	{
-		specialAnim = false;
-		if(!isAnimateAtlas) animation.play(AnimName, Force, Reversed, Frame);
-		#if flxanimate else atlas.anim.play(AnimName, Force, Reversed, Frame); #end
+		if(!specialAnim){
+			if(!isAnimateAtlas) animation.play(AnimName, Force, Reversed, Frame);
+			#if flxanimate else atlas.anim.play(AnimName, Force, Reversed, Frame); #end
 
-		if (animOffsets.exists(AnimName))
-		{
-			var daOffset = animOffsets.get(AnimName);
-			offset.set(daOffset[0], daOffset[1]);
-		}
-		//else offset.set(0, 0);
-
-		if (curCharacter.startsWith('gf-') || curCharacter == 'gf')
-		{
-			if (AnimName == 'singLEFT')
-				danced = true;
-
-			else if (AnimName == 'singRIGHT')
-				danced = false;
-
-			if (AnimName == 'singUP' || AnimName == 'singDOWN')
-				danced = !danced;
-		}
-	}
-
-	function loadMappedAnims():Void
-	{
-		try
-		{
-			var noteData:Array<SwagSection> = Song.loadFromJson('picospeaker', Paths.formatToSongPath(PlayState.SONG.song)).notes;
-			for (section in noteData) {
-				for (songNotes in section.sectionNotes) {
-					animationNotes.push(songNotes);
-				}
+			if (animOffsets.exists(AnimName))
+			{
+				var daOffset = animOffsets.get(AnimName);
+				offset.set(daOffset[0], daOffset[1]);
 			}
-			TankmenBG.animationNotes = animationNotes;
-			animationNotes.sort(sortAnims);
+			//else offset.set(0, 0);
+
+			if (curCharacter.startsWith('gf-') || curCharacter == 'gf')
+			{
+				if (AnimName == 'singLEFT')
+					danced = true;
+
+				else if (AnimName == 'singRIGHT')
+					danced = false;
+
+				if (AnimName == 'singUP' || AnimName == 'singDOWN')
+					danced = !danced;
+			}
 		}
-		catch(e:Dynamic) {}
 	}
 
 	function sortAnims(Obj1:Array<Dynamic>, Obj2:Array<Dynamic>):Int

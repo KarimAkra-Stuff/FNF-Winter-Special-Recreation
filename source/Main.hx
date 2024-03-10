@@ -12,6 +12,7 @@ import states.TitleState;
 import openfl.events.KeyboardEvent;
 import mobile.states.CopyState;
 import mobile.objects.MobileControls;
+import backend.NewgroundsSplash;
 #if linux
 import lime.graphics.Image;
 
@@ -22,13 +23,13 @@ import lime.graphics.Image;
 #end
 class Main extends Sprite
 {
-	var game = {
+	public static final game = {
 		width: 1280, // WINDOW width
 		height: 720, // WINDOW height
 		initialState: TitleState, // initial game state
 		zoom: -1.0, // game state bounds
 		framerate: 60, // default framerate
-		skipSplash: true, // if the default flixel splash screen should be skipped
+		skipSplash: false, // if the newgrounds splash screen should be skipped
 		startFullscreen: false // if the game should start at fullscreen mode
 	};
 
@@ -96,7 +97,12 @@ class Main extends Sprite
 
 		Controls.instance = new Controls();
 		
-		addChild(new FlxGame(#if (openfl >= "9.2.0") 1280, 720 #else game.width, game.height #end, #if (mobile && MODS_ALLOWED) CopyState.checkExistingFiles() ? game.initialState : CopyState #else game.initialState #end, #if (flixel < "5.0.0") game.zoom, #end game.framerate, game.framerate, game.skipSplash, game.startFullscreen));
+		addChild(new FlxGame(#if (openfl >= "9.2.0") 1280, 720 #else game.width, game.height #end, NewgroundsSplash, #if (flixel < "5.0.0") game.zoom, #end game.framerate, game.framerate, true, game.startFullscreen));
+		if(!game.skipSplash) {
+			// i hate caching >:(
+			FlxG.bitmap.add(Paths.image('NEWGROUNDS'));
+			FlxG.sound.load(Paths.sound('newgrounds'));
+		}
 		fpsVar = new FPSCounter(10, 3, 0xFFFFFF);
 		addChild(fpsVar);
 		if(fpsVar != null)

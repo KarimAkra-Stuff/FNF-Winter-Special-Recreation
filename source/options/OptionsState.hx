@@ -10,8 +10,8 @@ import sys.thread.Mutex;
 
 class OptionsState extends MusicBeatState
 {
-	var options:Array<String> = ['Note Colors', 'Controls', 'Adjust Delay and Combo', 'Graphics', 'Visuals and UI', 'Gameplay', 'Mobile Options'];
-	private var grpOptions:FlxTypedGroup<Alphabet>;
+	var options:Array<String> = ['Note Colors', 'Controls' /*, 'Adjust Delay and Combo'*/, 'Graphics', 'Visuals and UI', 'Gameplay', 'Mobile Options'];
+	private var grpOptions:FlxTypedSpriteGroup<Alphabet>;
 	private static var curSelected:Int = 0;
 	public static var menuBG:FlxSprite;
 	public static var onPlayState:Bool = false;
@@ -32,8 +32,8 @@ class OptionsState extends MusicBeatState
 				openSubState(new options.VisualsUISubState());
 			case 'Gameplay':
 				openSubState(new options.GameplaySettingsSubState());
-			case 'Adjust Delay and Combo':
-				MusicBeatState.switchState(new options.NoteOffsetState());
+			/*case 'Adjust Delay and Combo':
+				MusicBeatState.switchState(new options.NoteOffsetState());*/
 			case 'Mobile Options':
 				openSubState(new mobile.options.MobileOptionsSubState());
 		}
@@ -46,6 +46,9 @@ class OptionsState extends MusicBeatState
 		#if DISCORD_ALLOWED
 		DiscordClient.changePresence("Options Menu", null);
 		#end
+
+		FlxG.sound.playMusic(Paths.music('options'), 0);
+		FlxG.sound.music.fadeOut(0.2, 1);
 
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
 		bg.antialiasing = ClientPrefs.data.antialiasing;
@@ -62,16 +65,27 @@ class OptionsState extends MusicBeatState
 		tipText.antialiasing = ClientPrefs.data.antialiasing;
 		add(tipText);
 
-		grpOptions = new FlxTypedGroup<Alphabet>();
+		grpOptions = new FlxTypedSpriteGroup<Alphabet>();
 		add(grpOptions);
+
+		var optionsText:FlxSprite = new FlxSprite(0, 15);
+		optionsText.frames = Paths.getSparrowAtlas('TEXT-OPTIONS');
+		optionsText.animation.addByPrefix('idle', 'OPTIONS IDLE', 24);
+		optionsText.animation.play('idle', true);
+		optionsText.scale.set(.5, .5);
+		optionsText.updateHitbox();
+		optionsText.screenCenter(X);
+		add(optionsText);
 
 		for (i in 0...options.length)
 		{
 			var optionText:Alphabet = new Alphabet(0, 0, options[i], true);
 			optionText.screenCenter();
-			optionText.y += (100 * (i - (options.length / 2))) + 50;
+			optionText.y += (80 * (i - (options.length / 2)));
 			grpOptions.add(optionText);
 		}
+
+		grpOptions.y = optionsText.y + optionsText.height - 70;
 
 		selectorLeft = new Alphabet(0, 0, '>', true);
 		add(selectorLeft);
@@ -133,6 +147,7 @@ class OptionsState extends MusicBeatState
 
 		if (controls.BACK) {
             exiting = true;
+			FlxG.sound.music.stop();
 			FlxG.sound.play(Paths.sound('cancelMenu'));
 			if(onPlayState)
 			{
@@ -168,6 +183,8 @@ class OptionsState extends MusicBeatState
 	override function destroy()
 	{
 		ClientPrefs.loadPrefs();
+		FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
+		FlxG.sound.music.fadeIn(0.8, 0, 0.7);
 		super.destroy();
 	}
 }

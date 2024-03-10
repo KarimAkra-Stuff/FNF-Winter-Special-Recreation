@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="TEXT-OPTIONS.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="OPTIONS IDLE0000" x="0" y="0" width="1035" height="390" frameX="-1" frameY="0" frameWidth="1036" frameHeight="390"/>
+	<SubTexture name="OPTIONS IDLE0001" x="0" y="0" width="1035" height="390" frameX="-1" frameY="0" frameWidth="1036" frameHeight="390"/>
+	<SubTexture name="OPTIONS IDLE0002" x="0" y="0" width="1035" height="390" frameX="-1" frameY="0" frameWidth="1036" frameHeight="390"/>
+	<SubTexture name="OPTIONS IDLE0003" x="0" y="395" width="1036" height="390"/>
+	<SubTexture name="OPTIONS IDLE0004" x="0" y="395" width="1036" height="390"/>
+	<SubTexture name="OPTIONS IDLE0005" x="0" y="395" width="1036" height="390"/>
+	<SubTexture name="OPTIONS IDLE0006" x="0" y="790" width="1035" height="390" frameX="-1" frameY="0" frameWidth="1036" frameHeight="390"/>
+	<SubTexture name="OPTIONS IDLE0007" x="0" y="790" width="1035" height="390" frameX="-1" frameY="0" frameWidth="1036" frameHeight="390"/>
+	<SubTexture name="OPTIONS IDLE0008" x="0" y="790" width="1035" height="390" frameX="-1" frameY="0" frameWidth="1036" frameHeight="390"/>
+</TextureAtlas>

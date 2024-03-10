@@ -127,7 +127,7 @@ class MainMenuState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
-		if (FlxG.sound.music.volume < 0.8)
+		if (FlxG.sound.music.volume < 0.8 && !selectedSomethin)
 		{
 			FlxG.sound.music.volume += 0.5 * elapsed;
 			if (FreeplayState.vocals != null)
@@ -184,6 +184,7 @@ class MainMenuState extends MusicBeatState
 									MusicBeatState.switchState(new AchievementsMenuState());
 								#end
 								case 'options':
+									FlxG.sound.music.fadeOut(0.3, 0);
 									MusicBeatState.switchState(new OptionsState());
 									OptionsState.onPlayState = false;
 									if (PlayState.SONG != null)
