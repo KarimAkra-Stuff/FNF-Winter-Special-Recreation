@@ -2,10 +2,8 @@
   "dependencies": [
     {
       "name": "lime",
-      "type": "git",
-      "dir": null,
-      "ref": "main",
-      "url": "https://github.com/mcagabe19-stuff/lime"
+      "type": "haxelib",
+      "version": null
     },
     {
       "name": "openfl",
@@ -40,18 +38,6 @@
       "url": "https://github.com/mcagabe19-stuff/hxcpp"
     },
     {
-      "name": "hxCodec",
-      "type": "haxelib",
-      "version": "2.6.0"
-    },
-    {
-      "name": "hxvlc",
-      "type": "git",
-      "dir": null,
-      "ref": "main",
-      "url": "https://github.com/mcagabe19-stuff/hxvlc"
-    },
-    {
       "name": "SScript",
       "type": "haxelib",
       "version": "8.1.6"
@@ -84,13 +70,6 @@
       "dir": null,
       "ref": "dev",
       "url": "https://github.com/ShadowMario/flxanimate.git"
-    },
-    {
-      "name": "extension-androidtools",
-      "type": "git",
-      "dir": null,
-      "ref": "a17116c7d65a731c6343628044b15da5532d5a48",
-      "url": "https://github.com/MAJigsaw77/extension-androidtools.git"
     }
   ]
 }
