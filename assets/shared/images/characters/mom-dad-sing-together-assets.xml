@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mom-dad-sing-together-assets.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name=" mom dad laugh0000" x="0" y="0" width="934" height="1093" frameX="0" frameY="0" frameWidth="943" frameHeight="1093"/>
+	<SubTexture name=" mom dad laugh0001" x="0" y="0" width="934" height="1093" frameX="0" frameY="0" frameWidth="943" frameHeight="1093"/>
+	<SubTexture name=" mom dad laugh0002" x="939" y="0" width="943" height="1086" frameX="0" frameY="-7" frameWidth="943" frameHeight="1093"/>
+	<SubTexture name=" mom dad laugh0003" x="939" y="0" width="943" height="1086" frameX="0" frameY="-7" frameWidth="943" frameHeight="1093"/>
+	<SubTexture name=" mom dad laugh0004" x="1887" y="0" width="940" height="1091" frameX="0" frameY="-2" frameWidth="943" frameHeight="1093"/>
+	<SubTexture name=" mom dad laugh0005" x="1887" y="0" width="940" height="1091" frameX="0" frameY="-2" frameWidth="943" frameHeight="1093"/>
+	<SubTexture name=" mom dad laugh0006" x="2832" y="0" width="940" height="1093" frameX="0" frameY="0" frameWidth="943" frameHeight="1093"/>
+	<SubTexture name=" mom dad laugh0007" x="2832" y="0" width="940" height="1093" frameX="0" frameY="0" frameWidth="943" frameHeight="1093"/>
+	<SubTexture name="down mom dad pose0000" x="3777" y="0" width="952" height="1018" frameX="0" frameY="-23" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0001" x="3777" y="0" width="952" height="1018" frameX="0" frameY="-23" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0002" x="4734" y="0" width="959" height="1041" frameX="-2" frameY="0" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0003" x="4734" y="0" width="959" height="1041" frameX="-2" frameY="0" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0004" x="5698" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0005" x="5698" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0006" x="6662" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0007" x="6662" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0008" x="5698" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0009" x="5698" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0010" x="6662" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0011" x="6662" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0012" x="5698" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0013" x="5698" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0014" x="6662" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0015" x="6662" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0016" x="5698" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0017" x="5698" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0018" x="6662" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0019" x="6662" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0020" x="5698" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0021" x="5698" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0022" x="6662" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0023" x="6662" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0024" x="5698" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0025" x="5698" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0026" x="6662" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0027" x="6662" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0028" x="5698" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="down mom dad pose0029" x="5698" y="0" width="959" height="1039" frameX="-2" frameY="-2" frameWidth="961" frameHeight="1041"/>
+	<SubTexture name="idle mom dad0000" x="0" y="1098" width="962" height="1060" frameX="0" frameY="-13" frameWidth="978" frameHeight="1073"/>
+	<SubTexture name="idle mom dad0001" x="967" y="1098" width="962" height="1060" frameX="0" frameY="-13" frameWidth="978" frameHeight="1073"/>
+	<SubTexture name="idle mom dad0002" x="1934" y="1098" width="960" height="1041" frameX="-2" frameY="-32" frameWidth="978" frameHeight="1073"/>
+	<SubTexture name="idle mom dad0003" x="1934" y="1098" width="960" height="1041" frameX="-2" frameY="-32" frameWidth="978" frameHeight="1073"/>
+	<SubTexture name="idle mom dad0004" x="2899" y="1098" width="967" height="1050" frameX="-3" frameY="-23" frameWidth="978" frameHeight="1073"/>
+	<SubTexture name="idle mom dad0005" x="2899" y="1098" width="967" height="1050" frameX="-3" frameY="-23" frameWidth="978" frameHeight="1073"/>
+	<SubTexture name="idle mom dad0006" x="3871" y="1098" width="975" height="1065" frameX="-3" frameY="-8" frameWidth="978" frameHeight="1073"/>
+	<SubTexture name="idle mom dad0007" x="3871" y="1098" width="975" height="1065" frameX="-3" frameY="-8" frameWidth="978" frameHeight="1073"/>
+	<SubTexture name="idle mom dad0008" x="4851" y="1098" width="975" height="1071" frameX="-3" frameY="-2" frameWidth="978" frameHeight="1073"/>
+	<SubTexture name="idle mom dad0009" x="4851" y="1098" width="975" height="1071" frameX="-3" frameY="-2" frameWidth="978" frameHeight="1073"/>
+	<SubTexture name="idle mom dad0010" x="5831" y="1098" width="975" height="1073" frameX="-3" frameY="0" frameWidth="978" frameHeight="1073"/>
+	<SubTexture name="idle mom dad0011" x="5831" y="1098" width="975" height="1073" frameX="-3" frameY="0" frameWidth="978" frameHeight="1073"/>
+	<SubTexture name="idle mom dad0012" x="6811" y="1098" width="975" height="1073" frameX="-3" frameY="0" frameWidth="978" frameHeight="1073"/>
+	<SubTexture name="idle mom dad0013" x="6811" y="1098" width="975" height="1073" frameX="-3" frameY="0" frameWidth="978" frameHeight="1073"/>
+	<SubTexture name="idle mom dad0014" x="5831" y="1098" width="975" height="1073" frameX="-3" frameY="0" frameWidth="978" frameHeight="1073"/>
+	<SubTexture name="left mom dad pose0000" x="0" y="2176" width="886" height="1077" frameX="0" frameY="-6" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0001" x="0" y="2176" width="886" height="1077" frameX="0" frameY="-6" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0002" x="891" y="2176" width="880" height="1081" frameX="-6" frameY="-2" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0003" x="891" y="2176" width="880" height="1081" frameX="-6" frameY="-2" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0004" x="1776" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0005" x="1776" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0006" x="2661" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0007" x="2661" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0008" x="1776" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0009" x="1776" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0010" x="2661" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0011" x="2661" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0012" x="1776" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0013" x="1776" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0014" x="2661" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0015" x="2661" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0016" x="1776" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0017" x="1776" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0018" x="2661" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0019" x="2661" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0020" x="1776" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0021" x="1776" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0022" x="2661" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0023" x="2661" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0024" x="1776" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0025" x="1776" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0026" x="2661" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0027" x="2661" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0028" x="1776" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="left mom dad pose0029" x="1776" y="2176" width="880" height="1083" frameX="-6" frameY="0" frameWidth="886" frameHeight="1083"/>
+	<SubTexture name="right mom dad pose0000" x="3546" y="2176" width="1035" height="1048" frameX="-4" frameY="-4" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0001" x="3546" y="2176" width="1035" height="1048" frameX="-4" frameY="-4" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0002" x="4586" y="2176" width="1029" height="1052" frameX="0" frameY="0" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0003" x="4586" y="2176" width="1029" height="1052" frameX="0" frameY="0" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0004" x="5620" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0005" x="5620" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0006" x="6654" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0007" x="6654" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0008" x="5620" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0009" x="5620" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0010" x="6654" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0011" x="6654" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0012" x="5620" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0013" x="5620" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0014" x="6654" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0015" x="6654" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0016" x="5620" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0017" x="5620" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0018" x="6654" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0019" x="6654" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0020" x="5620" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0021" x="5620" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0022" x="6654" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0023" x="6654" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0024" x="5620" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0025" x="5620" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0026" x="6654" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0027" x="6654" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0028" x="5620" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="right mom dad pose0029" x="5620" y="2176" width="1029" height="1051" frameX="0" frameY="-1" frameWidth="1039" frameHeight="1052"/>
+	<SubTexture name="up mom dad pose0000" x="0" y="3264" width="896" height="1124" frameX="-1" frameY="0" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0001" x="0" y="3264" width="896" height="1124" frameX="-1" frameY="0" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0002" x="901" y="3264" width="906" height="1116" frameX="0" frameY="-8" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0003" x="901" y="3264" width="906" height="1116" frameX="0" frameY="-8" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0004" x="1812" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0005" x="1812" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0006" x="2723" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0007" x="2723" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0008" x="1812" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0009" x="1812" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0010" x="2723" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0011" x="2723" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0012" x="1812" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0013" x="1812" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0014" x="2723" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0015" x="2723" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0016" x="1812" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0017" x="1812" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0018" x="2723" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0019" x="2723" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0020" x="1812" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0021" x="1812" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0022" x="2723" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0023" x="2723" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0024" x="1812" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0025" x="1812" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0026" x="2723" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0027" x="2723" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0028" x="1812" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+	<SubTexture name="up mom dad pose0029" x="1812" y="3264" width="906" height="1113" frameX="0" frameY="-11" frameWidth="906" frameHeight="1124"/>
+</TextureAtlas>

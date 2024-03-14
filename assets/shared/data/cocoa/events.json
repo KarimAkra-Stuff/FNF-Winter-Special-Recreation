@@ -1,1 +1,506 @@
-{"song":{"player1":"bf-christmas","notes":[{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":false},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":false},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":false},{"sectionNotes":[[9000,-1,"Hey!","1",""]],"lengthInSteps":16,"mustHitSection":false},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[[18600,-1,"Hey!","1",""]],"lengthInSteps":16,"mustHitSection":true},{"altAnim":true,"sectionNotes":[],"lengthInSteps":16,"mustHitSection":false},{"altAnim":true,"sectionNotes":[],"lengthInSteps":16,"mustHitSection":false},{"altAnim":true,"sectionNotes":[],"lengthInSteps":16,"mustHitSection":false},{"altAnim":true,"sectionNotes":[[28200,-1,"Hey!","1",""]],"lengthInSteps":16,"mustHitSection":false},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[[37800,-1,"Hey!","1",""]],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":false},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":false},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":false},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":false},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"altAnim":true,"sectionNotes":[],"lengthInSteps":16,"mustHitSection":false},{"altAnim":true,"sectionNotes":[],"lengthInSteps":16,"mustHitSection":false},{"altAnim":true,"sectionNotes":[],"lengthInSteps":16,"mustHitSection":false},{"altAnim":true,"sectionNotes":[],"lengthInSteps":16,"mustHitSection":false},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":false},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":false},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[[85800,-1,"Hey!","1",""]],"lengthInSteps":16,"mustHitSection":true},{"altAnim":true,"sectionNotes":[],"lengthInSteps":16,"mustHitSection":false},{"altAnim":true,"sectionNotes":[],"lengthInSteps":16,"mustHitSection":false},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"altAnim":true,"sectionNotes":[],"lengthInSteps":16,"mustHitSection":false},{"altAnim":true,"sectionNotes":[],"lengthInSteps":16,"mustHitSection":false},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"sectionNotes":[],"lengthInSteps":16,"mustHitSection":true},{"lengthInSteps":16,"altAnim":false,"typeOfSection":0,"sectionNotes":[],"bpm":100,"changeBPM":false,"mustHitSection":true},{"lengthInSteps":16,"altAnim":false,"typeOfSection":0,"sectionNotes":[],"bpm":100,"changeBPM":false,"mustHitSection":true}],"player2":"parents-christmas","song":"Cocoa","validScore":true,"needsVoices":true,"speed":1.5,"bpm":100}}
+{
+	"song": {
+		"events": [
+			[
+				2285.71428571429,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				42285.7142857143,
+				[
+					[
+						"Add Camera Zoom",
+						".025",
+						".04"
+					]
+				]
+			],
+			[
+				42714.2857142857,
+				[
+					[
+						"Add Camera Zoom",
+						".025",
+						".04"
+					]
+				]
+			],
+			[
+				43142.8571428571,
+				[
+					[
+						"Add Camera Zoom",
+						".025",
+						".04"
+					]
+				]
+			],
+			[
+				43428.5714285714,
+				[
+					[
+						"Add Camera Zoom",
+						".025",
+						".04"
+					]
+				]
+			],
+			[
+				51428.5714285714,
+				[
+					[
+						"Add Camera Zoom",
+						".025",
+						".04"
+					]
+				]
+			],
+			[
+				51857.1428571428,
+				[
+					[
+						"Add Camera Zoom",
+						".025",
+						".04"
+					]
+				]
+			],
+			[
+				52285.7142857143,
+				[
+					[
+						"Add Camera Zoom",
+						".025",
+						".04"
+					]
+				]
+			],
+			[
+				52571.4285714286,
+				[
+					[
+						"Add Camera Zoom",
+						".025",
+						".04"
+					]
+				]
+			],
+			[
+				66285.7142857142,
+				[
+					[
+						"Camera Follow Pos",
+						"1900",
+						"400"
+					],
+					[
+						"Smooth cam zoom",
+						".35",
+						""
+					]
+				]
+			],
+			[
+				70857.1428571428,
+				[
+					[
+						"Smooth cam zoom",
+						".5",
+						"4"
+					]
+				]
+			],
+			[
+				75428.5714285714,
+				[
+					[
+						"Camera Follow Pos",
+						"",
+						""
+					],
+					[
+						"Smooth cam zoom",
+						".3",
+						"2"
+					]
+				]
+			],
+			[
+				107428.571428571,
+				[
+					[
+						"Camera Follow Pos",
+						"1900",
+						"400"
+					],
+					[
+						"Smooth cam zoom",
+						".5",
+						"4"
+					]
+				]
+			],
+			[
+				112000,
+				[
+					[
+						"Smooth cam zoom",
+						".4",
+						""
+					]
+				]
+			],
+			[
+				112571.428571429,
+				[
+					[
+						"Smooth cam zoom",
+						".6",
+						""
+					],
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				113142.857142857,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				113714.285714286,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				114285.714285714,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				114857.142857143,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				115428.571428571,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				116000,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				116571.428571429,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				117142.857142857,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				117714.285714286,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				118285.714285714,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				118857.142857143,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				119428.571428571,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				120000,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				120571.428571429,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				121142.857142857,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				121714.285714286,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				122285.714285714,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				122857.142857143,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				123428.571428571,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				124000,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				124571.428571429,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				125142.857142857,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				125714.285714286,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				126285.714285714,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				126857.142857143,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				127428.571428571,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				128000,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				128571.428571429,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				129142.857142857,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				129714.285714286,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					]
+				]
+			],
+			[
+				130285.714285714,
+				[
+					[
+						"Add Camera Zoom",
+						".03",
+						".04"
+					],
+					[
+						"Camera Follow Pos",
+						"",
+						""
+					],
+					[
+						"Smooth cam zoom",
+						".3",
+						"2"
+					]
+				]
+			],
+			[
+				144000,
+				[
+					[
+						"Change Character",
+						"dad",
+						"parents-xmas-together"
+					]
+				]
+			]
+		]
+	}
+}

@@ -47,7 +47,7 @@ class NewgroundsSplash extends FlxState {
 
     override function update(elapsed:Float){
         super.update(elapsed);
-        if(FlxG.keys.justPressed.ANY || TouchFunctions.touchJustPressed #if android || FlxG.android.justPressed.BACK #end){
+        if(FlxG.keys.justPressed.ENTER #if android || FlxG.android.justPressed.BACK #end){
             FlxG.bitmap.remove(ng.graphic);
             ng.destroy();
             FlxG.switchState(Type.createInstance(nextState, []));

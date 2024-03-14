@@ -1,0 +1,170 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle mom dad"
+		},
+		{
+			"offsets": [
+				-2,
+				21
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "laugh",
+			"indices": [],
+			"name": " mom dad laugh"
+		},
+		{
+			"offsets": [
+				0,
+				1
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-loop",
+			"indices": [
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "idle mom dad"
+		},
+		{
+			"offsets": [
+				-7,
+				51
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up mom dad pose"
+		},
+		{
+			"offsets": [
+				0,
+				-31
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down mom dad pose"
+		},
+		{
+			"offsets": [
+				6,
+				11
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "left mom dad pose"
+		},
+		{
+			"offsets": [
+				-8,
+				-20
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "right mom dad pose"
+		},
+		{
+			"offsets": [
+				-7,
+				51
+			],
+			"indices": [
+				26,
+				27,
+				28,
+				29
+			],
+			"fps": 24,
+			"anim": "singUP-loop",
+			"loop": true,
+			"name": "up mom dad pose"
+		},
+		{
+			"offsets": [
+				0,
+				-31
+			],
+			"indices": [
+				26,
+				27,
+				28,
+				29
+			],
+			"fps": 24,
+			"anim": "singDOWN-loop",
+			"loop": true,
+			"name": "down mom dad pose"
+		},
+		{
+			"offsets": [
+				6,
+				11
+			],
+			"indices": [
+				26,
+				27,
+				28,
+				29
+			],
+			"fps": 24,
+			"anim": "singLEFT-loop",
+			"loop": true,
+			"name": "left mom dad pose"
+		},
+		{
+			"offsets": [
+				-8,
+				-20
+			],
+			"indices": [
+				26,
+				27,
+				28,
+				29
+			],
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"loop": true,
+			"name": "right mom dad pose"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mom-dad-sing-together-assets",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "parents",
+	"flip_x": false,
+	"healthbar_colors": [
+		196,
+		94,
+		174
+	],
+	"camera_position": [
+		320,
+		-80
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

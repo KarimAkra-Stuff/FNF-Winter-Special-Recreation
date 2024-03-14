@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="monster-event-2.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="monster front 2 idle0000" x="21" y="21" width="847" height="509" frameX="0" frameY="-17" frameWidth="847" frameHeight="526"/>
+	<SubTexture name="monster front 2 idle0001" x="21" y="21" width="847" height="509" frameX="0" frameY="-17" frameWidth="847" frameHeight="526"/>
+	<SubTexture name="monster front 2 idle0002" x="889" y="21" width="762" height="506" frameX="-80" frameY="-6" frameWidth="847" frameHeight="526"/>
+	<SubTexture name="monster front 2 idle0003" x="889" y="21" width="762" height="506" frameX="-80" frameY="-6" frameWidth="847" frameHeight="526"/>
+	<SubTexture name="monster front 2 idle0004" x="21" y="551" width="710" height="512" frameX="-103" frameY="0" frameWidth="847" frameHeight="526"/>
+	<SubTexture name="monster front 2 idle0005" x="21" y="551" width="710" height="512" frameX="-103" frameY="0" frameWidth="847" frameHeight="526"/>
+	<SubTexture name="monster front 2 idle0006" x="21" y="551" width="710" height="512" frameX="-103" frameY="0" frameWidth="847" frameHeight="526"/>
+	<SubTexture name="monster front 2 idle0007" x="21" y="551" width="710" height="512" frameX="-103" frameY="0" frameWidth="847" frameHeight="526"/>
+	<SubTexture name="monster front 2 idle0008" x="21" y="551" width="710" height="512" frameX="-103" frameY="0" frameWidth="847" frameHeight="526"/>
+	<SubTexture name="monster front 2 idle0009" x="21" y="551" width="710" height="512" frameX="-103" frameY="0" frameWidth="847" frameHeight="526"/>
+</TextureAtlas>

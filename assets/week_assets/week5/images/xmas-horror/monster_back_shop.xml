@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="monster back shop.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="monster 30000" x="0" y="0" width="464" height="316" frameX="0" frameY="-25" frameWidth="464" frameHeight="341"/>
+	<SubTexture name="monster 30001" x="0" y="0" width="464" height="316" frameX="0" frameY="-25" frameWidth="464" frameHeight="341"/>
+	<SubTexture name="monster 30002" x="469" y="0" width="452" height="333" frameX="-6" frameY="-8" frameWidth="464" frameHeight="341"/>
+	<SubTexture name="monster 30003" x="469" y="0" width="452" height="333" frameX="-6" frameY="-8" frameWidth="464" frameHeight="341"/>
+	<SubTexture name="monster 30004" x="0" y="338" width="443" height="341" frameX="-10" frameY="0" frameWidth="464" frameHeight="341"/>
+	<SubTexture name="monster 30005" x="0" y="338" width="443" height="341" frameX="-10" frameY="0" frameWidth="464" frameHeight="341"/>
+	<SubTexture name="monster 30006" x="0" y="338" width="443" height="341" frameX="-10" frameY="0" frameWidth="464" frameHeight="341"/>
+	<SubTexture name="monster 30007" x="0" y="338" width="443" height="341" frameX="-10" frameY="0" frameWidth="464" frameHeight="341"/>
+	<SubTexture name="monster 30008" x="0" y="338" width="443" height="341" frameX="-10" frameY="0" frameWidth="464" frameHeight="341"/>
+	<SubTexture name="monster 30009" x="0" y="338" width="443" height="341" frameX="-10" frameY="0" frameWidth="464" frameHeight="341"/>
+</TextureAtlas>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="zone.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ZONA DEAD0000" x="0" y="0" width="314" height="794" frameX="0" frameY="-7" frameWidth="314" frameHeight="801"/>
+	<SubTexture name="ZONA DEAD0001" x="0" y="0" width="314" height="794" frameX="0" frameY="-7" frameWidth="314" frameHeight="801"/>
+	<SubTexture name="ZONA DEAD0002" x="319" y="0" width="310" height="799" frameX="-2" frameY="-2" frameWidth="314" frameHeight="801"/>
+	<SubTexture name="ZONA DEAD0003" x="319" y="0" width="310" height="799" frameX="-2" frameY="-2" frameWidth="314" frameHeight="801"/>
+	<SubTexture name="ZONA DEAD0004" x="634" y="0" width="309" height="801" frameX="-2" frameY="0" frameWidth="314" frameHeight="801"/>
+	<SubTexture name="ZONA DEAD0005" x="634" y="0" width="309" height="801" frameX="-2" frameY="0" frameWidth="314" frameHeight="801"/>
+	<SubTexture name="ZONA DEAD0006" x="634" y="0" width="309" height="801" frameX="-2" frameY="0" frameWidth="314" frameHeight="801"/>
+	<SubTexture name="ZONA DEAD0007" x="634" y="0" width="309" height="801" frameX="-2" frameY="0" frameWidth="314" frameHeight="801"/>
+	<SubTexture name="ZONA DEAD0008" x="634" y="0" width="309" height="801" frameX="-2" frameY="0" frameWidth="314" frameHeight="801"/>
+	<SubTexture name="ZONA DEAD0009" x="634" y="0" width="309" height="801" frameX="-2" frameY="0" frameWidth="314" frameHeight="801"/>
+</TextureAtlas>

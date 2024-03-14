@@ -7,7 +7,6 @@ import llua.Lua;
 import lime.ui.Haptic;
 import psychlua.FunkinLua;
 import mobile.backend.TouchFunctions;
-#if android import mobile.backend.PsychJNI; #end
 
 class MobileFunctions
 {
@@ -207,26 +206,6 @@ class AndroidFunctions
 		funk.set("menuJustPressed", FlxG.android.justPressed.MENU);
 		funk.set("menuPressed", FlxG.android.pressed.MENU);
 		funk.set("menuJustReleased", FlxG.android.justReleased.MENU);
-
-		funk.set("setOrientation", function(hint:Null<String>):Void
-		{
-			switch (hint.toLowerCase())
-			{
-				case 'portrait':
-					hint = 'Portrait';
-				case 'portraitupsidedown' | 'upsidedownportrait' | 'upsidedown':
-					hint = 'PortraitUpsideDown';
-				case 'landscapeleft' | 'leftlandscape':
-					hint = 'LandscapeLeft';
-				case 'landscaperight' | 'rightlandscape' | 'landscape':
-					hint = 'LandscapeRight';
-				default:
-					hint = null;
-			}
-			if (hint == null)
-				return FunkinLua.luaTrace('setOrientation: No orientation specified.');
-			PsychJNI.setOrientation(FlxG.stage.stageWidth, FlxG.stage.stageHeight, false, hint);
-		});
 	}
 }
 #end

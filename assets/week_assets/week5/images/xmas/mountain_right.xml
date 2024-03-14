@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mountain_right.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mountain static0000" x="0" y="0" width="2819" height="1430" frameX="0" frameY="-34" frameWidth="2819" frameHeight="1464"/>
+	<SubTexture name="mountain glow0000" x="2824" y="0" width="2819" height="1464"/>
+	<SubTexture name="mountain glow0001" x="2824" y="0" width="2819" height="1464"/>
+	<SubTexture name="mountain glow0002" x="2824" y="0" width="2819" height="1464"/>
+	<SubTexture name="mountain glow0003" x="0" y="1469" width="2819" height="1450" frameX="0" frameY="-14" frameWidth="2819" frameHeight="1464"/>
+	<SubTexture name="mountain glow0004" x="0" y="1469" width="2819" height="1450" frameX="0" frameY="-14" frameWidth="2819" frameHeight="1464"/>
+	<SubTexture name="mountain glow0005" x="0" y="1469" width="2819" height="1450" frameX="0" frameY="-14" frameWidth="2819" frameHeight="1464"/>
+	<SubTexture name="mountain glow0006" x="2824" y="1469" width="2819" height="1448" frameX="0" frameY="-16" frameWidth="2819" frameHeight="1464"/>
+	<SubTexture name="mountain glow0007" x="2824" y="1469" width="2819" height="1448" frameX="0" frameY="-16" frameWidth="2819" frameHeight="1464"/>
+	<SubTexture name="mountain glow0008" x="2824" y="1469" width="2819" height="1448" frameX="0" frameY="-16" frameWidth="2819" frameHeight="1464"/>
+</TextureAtlas>

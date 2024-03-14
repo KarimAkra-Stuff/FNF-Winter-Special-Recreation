@@ -19,29 +19,6 @@ import sys.FileSystem;
 class SUtil
 {
 	#if sys
-	public static function getStorageDirectory(type:StorageType = #if EXTERNAL EXTERNAL #elseif OBB EXTERNAL_OBB #elseif MEDIA MEDIA #else EXTERNAL_DATA #end):String
-	{
-		var daPath:String = '';
-
-		#if android
-		switch (type)
-		{
-			case EXTERNAL_DATA:
-				daPath = AndroidContext.getExternalFilesDir(null);
-			case EXTERNAL_OBB:
-				daPath = AndroidContext.getObbDir();
-			case EXTERNAL:
-				daPath = AndroidEnvironment.getExternalStorageDirectory() + '/.' + Application.current.meta.get('file');
-			case MEDIA:
-				daPath = AndroidEnvironment.getExternalStorageDirectory() + '/Android/media/' + Application.current.meta.get('packageName');
-		}
-		#elseif ios
-		daPath = LimeSystem.documentsDirectory;
-		#end
-
-		return daPath;
-	}
-
 	public static function mkDirs(directory:String):Void
 	{
 		var total:String = '';
@@ -80,30 +57,6 @@ class SUtil
 		}
 		catch (e:Exception)
 			LimeLogger.println("File couldn't be saved.\n(${e.message})");
-	}
-	#end
-
-	#if android
-	public static function doPermissionsShit():Void
-	{
-		if (!AndroidPermissions.getGrantedPermissions().contains(AndroidPermissions.READ_EXTERNAL_STORAGE)
-			&& !AndroidPermissions.getGrantedPermissions().contains(AndroidPermissions.WRITE_EXTERNAL_STORAGE))
-		{
-			AndroidPermissions.requestPermission(AndroidPermissions.READ_EXTERNAL_STORAGE);
-			AndroidPermissions.requestPermission(AndroidPermissions.WRITE_EXTERNAL_STORAGE);
-			showPopUp('If you accepted the permissions you are all good!' + '\nIf you didn\'t then expect a crash' + '\nPress Ok to see what happens',
-				'Notice!');
-			if (!AndroidEnvironment.isExternalStorageManager())
-				AndroidSettings.requestSetting("android.AndroidSettings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION");
-		} else {
-                try {
-                if (!FileSystem.exists(SUtil.getStorageDirectory()))
-                    FileSystem.createDirectory(SUtil.getStorageDirectory());
-                }
-                catch(e:Dynamic) {
-			    showPopUp("Please create folder to\n" + #if EXTERNAL "/storage/emulated/0/." + lime.app.Application.current.meta.get('file') #elseif MEDIA "/storage/emulated/0/Android/media/" + lime.app.Application.current.meta.get('packageName') #else SUtil.getStorageDirectory() #end + "\nPress OK to close the game", "Error!");
-                LimeSystem.exit(1);
-                }}
 	}
 	#end
 

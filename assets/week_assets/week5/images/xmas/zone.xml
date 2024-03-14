@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="zone.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ZONE HEY0000" x="971" y="0" width="288" height="953" frameX="-2" frameY="0" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE HEY0001" x="971" y="0" width="288" height="953" frameX="-2" frameY="0" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE HEY0002" x="1264" y="0" width="292" height="949" frameX="0" frameY="-4" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE HEY0003" x="1264" y="0" width="292" height="949" frameX="0" frameY="-4" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE HEY0004" x="1561" y="0" width="294" height="947" frameX="0" frameY="-4" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE HEY0005" x="1561" y="0" width="294" height="947" frameX="0" frameY="-4" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE HEY0006" x="1561" y="0" width="294" height="947" frameX="0" frameY="-4" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE HEY0007" x="1561" y="0" width="294" height="947" frameX="0" frameY="-4" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE HEY0008" x="1561" y="0" width="294" height="947" frameX="0" frameY="-4" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE HEY0009" x="1561" y="0" width="294" height="947" frameX="0" frameY="-4" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE HEY0010" x="1561" y="0" width="294" height="947" frameX="0" frameY="-4" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE HEY0011" x="1561" y="0" width="294" height="947" frameX="0" frameY="-4" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE HEY0012" x="1561" y="0" width="294" height="947" frameX="0" frameY="-4" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE HEY0013" x="1561" y="0" width="294" height="947" frameX="0" frameY="-4" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE HEY0014" x="1561" y="0" width="294" height="947" frameX="0" frameY="-4" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE tan0000" x="0" y="0" width="321" height="916" frameX="-1" frameY="-30" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE tan0001" x="0" y="0" width="321" height="916" frameX="-1" frameY="-30" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE tan0002" x="326" y="0" width="318" height="924" frameX="0" frameY="-23" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE tan0003" x="326" y="0" width="318" height="924" frameX="0" frameY="-23" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE tan0004" x="649" y="0" width="317" height="928" frameX="0" frameY="-19" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE tan0005" x="649" y="0" width="317" height="928" frameX="0" frameY="-19" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE tan0006" x="649" y="0" width="317" height="928" frameX="0" frameY="-19" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE tan0007" x="649" y="0" width="317" height="928" frameX="0" frameY="-19" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE tan0008" x="649" y="0" width="317" height="928" frameX="0" frameY="-19" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE tan0009" x="649" y="0" width="317" height="928" frameX="0" frameY="-19" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE tan0010" x="649" y="0" width="317" height="928" frameX="0" frameY="-19" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE tan0011" x="649" y="0" width="317" height="928" frameX="0" frameY="-19" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE tan0012" x="649" y="0" width="317" height="928" frameX="0" frameY="-19" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE tan0013" x="649" y="0" width="317" height="928" frameX="0" frameY="-19" frameWidth="322" frameHeight="953"/>
+	<SubTexture name="ZONE tan0014" x="649" y="0" width="317" height="928" frameX="0" frameY="-19" frameWidth="322" frameHeight="953"/>
+</TextureAtlas>

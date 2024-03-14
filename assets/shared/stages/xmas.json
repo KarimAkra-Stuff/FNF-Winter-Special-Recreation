@@ -1,0 +1,44 @@
+{
+	"directory": "week5",
+	"defaultZoom": 0.3,
+	"stageUI": "",
+
+	"boyfriend": [1840, 370],
+	"girlfriend": [660, -180],
+	"opponent": [-440, -90],
+	"hide_girlfriend": false,
+
+	"camera_boyfriend": [-300, -360],
+	"camera_opponent": [200, -120],
+	"camera_girlfriend": [0, 0],
+	"camera_speed": 1,
+	"preload": {
+		"images":
+		[
+			"xmas/candy_back",
+			"xmas/skynight",
+			"xmas/mountain_left",
+			"xmas/mountain_right",
+			"xmas/town_back",
+			"xmas/tree_left_back_siluet",
+			"xmas/shops",
+			"xmas/people_back",
+			"xmas/xmas_tree",
+			"xmas/tree_glow_rgb",
+			"xmas/tree_left_back",
+			"xmas/tree_right_back_siluet",
+			"xmas/supermeatboy",
+			"xmas/zone",
+			"xmas/lmao_shop",
+			"xmas/tree_right_back",
+			"xmas/cops",
+			"xmas/tree_front_right_blur",
+			"xmas/tree_front_left_blur",
+			"xmas/HENCHMAHS",
+			"xmas/gift",
+			"xmas/vignette",
+			"snow1",
+			"snow2"
+		]
+	}
+}

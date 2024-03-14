@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="horrorland-cutscene-tree.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="monster on tree0000" x="0" y="0" width="1046" height="1908" frameX="-61" frameY="-844" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0001" x="0" y="0" width="1046" height="1908" frameX="-61" frameY="-844" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0002" x="1051" y="0" width="1046" height="1908" frameX="-61" frameY="-844" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0003" x="1051" y="0" width="1046" height="1908" frameX="-61" frameY="-844" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0004" x="2102" y="0" width="1046" height="1908" frameX="-61" frameY="-844" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0005" x="2102" y="0" width="1046" height="1908" frameX="-61" frameY="-844" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0006" x="3153" y="0" width="1046" height="1873" frameX="-61" frameY="-879" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0007" x="3153" y="0" width="1046" height="1873" frameX="-61" frameY="-879" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0008" x="4204" y="0" width="1046" height="1876" frameX="-61" frameY="-876" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0009" x="4204" y="0" width="1046" height="1876" frameX="-61" frameY="-876" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0010" x="5255" y="0" width="1042" height="2019" frameX="-62" frameY="-729" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0011" x="6302" y="0" width="1107" height="2752"/>
+	<SubTexture name="monster on tree0012" x="0" y="2757" width="1046" height="1712" frameX="-61" frameY="-1040" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0013" x="0" y="2757" width="1046" height="1712" frameX="-61" frameY="-1040" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0014" x="0" y="2757" width="1046" height="1712" frameX="-61" frameY="-1040" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0015" x="0" y="2757" width="1046" height="1712" frameX="-61" frameY="-1040" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0016" x="0" y="2757" width="1046" height="1712" frameX="-61" frameY="-1040" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0017" x="0" y="2757" width="1046" height="1712" frameX="-61" frameY="-1040" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0018" x="0" y="2757" width="1046" height="1712" frameX="-61" frameY="-1040" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0019" x="0" y="2757" width="1046" height="1712" frameX="-61" frameY="-1040" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0020" x="0" y="2757" width="1046" height="1712" frameX="-61" frameY="-1040" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0021" x="0" y="2757" width="1046" height="1712" frameX="-61" frameY="-1040" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0022" x="0" y="2757" width="1046" height="1712" frameX="-61" frameY="-1040" frameWidth="1107" frameHeight="2752"/>
+	<SubTexture name="monster on tree0023" x="0" y="2757" width="1046" height="1712" frameX="-61" frameY="-1040" frameWidth="1107" frameHeight="2752"/>
+</TextureAtlas>

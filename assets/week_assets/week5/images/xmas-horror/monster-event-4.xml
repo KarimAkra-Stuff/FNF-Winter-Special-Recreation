@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="monster-event-4.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="monster front 4 first anim0001" x="21" y="21" width="169" height="580" frameX="-244" frameY="-560" frameWidth="630" frameHeight="1153"/>
+	<SubTexture name="monster front 4 first anim0002" x="211" y="21" width="179" height="759" frameX="-236" frameY="-389" frameWidth="630" frameHeight="1153"/>
+	<SubTexture name="monster front 4 first anim0003" x="411" y="21" width="239" height="882" frameX="-211" frameY="-254" frameWidth="630" frameHeight="1153"/>
+	<SubTexture name="monster front 4 first anim0004" x="671" y="21" width="312" height="1095" frameX="-193" frameY="-59" frameWidth="630" frameHeight="1153"/>
+	<SubTexture name="monster front 4 first anim0005" x="671" y="21" width="312" height="1095" frameX="-193" frameY="-59" frameWidth="630" frameHeight="1153"/>
+	<SubTexture name="monster front 4 first anim0006" x="1004" y="21" width="373" height="1149" frameX="-121" frameY="0" frameWidth="630" frameHeight="1153"/>
+	<SubTexture name="monster front 4 first anim0007" x="1004" y="21" width="373" height="1149" frameX="-121" frameY="0" frameWidth="630" frameHeight="1153"/>
+	<SubTexture name="monster front 4 first anim0008" x="1398" y="21" width="630" height="1003" frameX="0" frameY="-145" frameWidth="630" frameHeight="1153"/>
+	<SubTexture name="monster front 4 first anim0009" x="1398" y="21" width="630" height="1003" frameX="0" frameY="-145" frameWidth="630" frameHeight="1153"/>
+	<SubTexture name="monster front 4 first anim0010" x="1398" y="21" width="630" height="1003" frameX="0" frameY="-145" frameWidth="630" frameHeight="1153"/>
+	<SubTexture name="monster front 4 first anim0011" x="1398" y="21" width="630" height="1003" frameX="0" frameY="-145" frameWidth="630" frameHeight="1153"/>
+	<SubTexture name="monster front 4 first anim0012" x="1398" y="21" width="630" height="1003" frameX="0" frameY="-145" frameWidth="630" frameHeight="1153"/>
+	<SubTexture name="monster front 4 first anim0013" x="1398" y="21" width="630" height="1003" frameX="0" frameY="-145" frameWidth="630" frameHeight="1153"/>
+	<SubTexture name="monster front 4 first anim0014" x="1398" y="21" width="630" height="1003" frameX="0" frameY="-145" frameWidth="630" frameHeight="1153"/>
+	<SubTexture name="monster front 4 first anim0015" x="1398" y="21" width="630" height="1003" frameX="0" frameY="-145" frameWidth="630" frameHeight="1153"/>
+	<SubTexture name="monster front 4 first anim0016" x="1398" y="21" width="630" height="1003" frameX="0" frameY="-145" frameWidth="630" frameHeight="1153"/>
+	<SubTexture name="monster front 4 first anim0017" x="1398" y="21" width="630" height="1003" frameX="0" frameY="-145" frameWidth="630" frameHeight="1153"/>
+	<SubTexture name="monster front 4 first anim0018" x="1398" y="21" width="630" height="1003" frameX="0" frameY="-145" frameWidth="630" frameHeight="1153"/>
+	<SubTexture name="monster front 4 first anim0019" x="1398" y="21" width="630" height="1003" frameX="0" frameY="-145" frameWidth="630" frameHeight="1153"/>
+	<SubTexture name="monster front 4 idle0000" x="2049" y="21" width="463" height="1166" frameX="-74" frameY="12" frameWidth="656" frameHeight="1166"/>
+	<SubTexture name="monster front 4 idle0001" x="2049" y="21" width="463" height="1166" frameX="-74" frameY="12" frameWidth="656" frameHeight="1166"/>
+	<SubTexture name="monster front 4 idle0002" x="2533" y="21" width="469" height="1139" frameX="-71" frameY="-11" frameWidth="656" frameHeight="1166"/>
+	<SubTexture name="monster front 4 idle0003" x="2533" y="21" width="469" height="1139" frameX="-71" frameY="-11" frameWidth="656" frameHeight="1166"/>
+	<SubTexture name="monster front 4 idle0004" x="3023" y="21" width="587" height="1087" frameX="-22" frameY="-60" frameWidth="656" frameHeight="1166"/>
+	<SubTexture name="monster front 4 idle0005" x="3023" y="21" width="587" height="1087" frameX="-22" frameY="-60" frameWidth="656" frameHeight="1166"/>
+	<SubTexture name="monster front 4 idle0006" x="3631" y="21" width="591" height="1077" frameX="-16" frameY="-73" frameWidth="656" frameHeight="1166"/>
+	<SubTexture name="monster front 4 idle0007" x="3631" y="21" width="591" height="1077" frameX="-16" frameY="-73" frameWidth="656" frameHeight="1166"/>
+	<SubTexture name="monster front 4 idle0008" x="3631" y="21" width="591" height="1077" frameX="-16" frameY="-73" frameWidth="656" frameHeight="1166"/>
+	<SubTexture name="monster front 4 idle0009" x="3631" y="21" width="591" height="1077" frameX="-16" frameY="-73" frameWidth="656" frameHeight="1166"/>
+	<SubTexture name="monster front 4 idle0010" x="4243" y="21" width="631" height="1003" frameX="2" frameY="-145" frameWidth="656" frameHeight="1166"/>
+	<SubTexture name="monster front 4 idle0011" x="4243" y="21" width="631" height="1003" frameX="2" frameY="-145" frameWidth="656" frameHeight="1166"/>
+	<SubTexture name="monster front 4 idle0012" x="4895" y="21" width="656" height="1031" frameX="18" frameY="-115" frameWidth="656" frameHeight="1166"/>
+	<SubTexture name="monster front 4 idle0013" x="4895" y="21" width="656" height="1031" frameX="18" frameY="-115" frameWidth="656" frameHeight="1166"/>
+	<SubTexture name="monster front 4 idle0014" x="5572" y="21" width="618" height="1061" frameX="-2" frameY="-86" frameWidth="656" frameHeight="1166"/>
+	<SubTexture name="monster front 4 idle0015" x="5572" y="21" width="618" height="1061" frameX="-2" frameY="-86" frameWidth="656" frameHeight="1166"/>
+	<SubTexture name="monster front 4 idle0016" x="3631" y="21" width="591" height="1077" frameX="-16" frameY="-73" frameWidth="656" frameHeight="1166"/>
+	<SubTexture name="monster front 4 idle0017" x="3631" y="21" width="591" height="1077" frameX="-16" frameY="-73" frameWidth="656" frameHeight="1166"/>
+	<SubTexture name="monster front 4 idle0018" x="3631" y="21" width="591" height="1077" frameX="-16" frameY="-73" frameWidth="656" frameHeight="1166"/>
+	<SubTexture name="monster front 4 idle0019" x="3631" y="21" width="591" height="1077" frameX="-16" frameY="-73" frameWidth="656" frameHeight="1166"/>
+</TextureAtlas>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="supermeatboy.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="meatboy idle0000" x="0" y="0" width="498" height="352" frameX="0" frameY="-9" frameWidth="498" frameHeight="361"/>
+	<SubTexture name="meatboy idle0001" x="0" y="0" width="498" height="352" frameX="0" frameY="-9" frameWidth="498" frameHeight="361"/>
+	<SubTexture name="meatboy idle0002" x="503" y="0" width="490" height="360" frameX="-4" frameY="-1" frameWidth="498" frameHeight="361"/>
+	<SubTexture name="meatboy idle0003" x="503" y="0" width="490" height="360" frameX="-4" frameY="-1" frameWidth="498" frameHeight="361"/>
+	<SubTexture name="meatboy idle0004" x="998" y="0" width="487" height="361" frameX="-6" frameY="0" frameWidth="498" frameHeight="361"/>
+	<SubTexture name="meatboy idle0005" x="998" y="0" width="487" height="361" frameX="-6" frameY="0" frameWidth="498" frameHeight="361"/>
+	<SubTexture name="meatboy idle0006" x="998" y="0" width="487" height="361" frameX="-6" frameY="0" frameWidth="498" frameHeight="361"/>
+	<SubTexture name="meatboy idle0007" x="998" y="0" width="487" height="361" frameX="-6" frameY="0" frameWidth="498" frameHeight="361"/>
+	<SubTexture name="meatboy idle0008" x="998" y="0" width="487" height="361" frameX="-6" frameY="0" frameWidth="498" frameHeight="361"/>
+	<SubTexture name="meatboy idle0009" x="998" y="0" width="487" height="361" frameX="-6" frameY="0" frameWidth="498" frameHeight="361"/>
+	<SubTexture name="meatboy idle0010" x="998" y="0" width="487" height="361" frameX="-6" frameY="0" frameWidth="498" frameHeight="361"/>
+	<SubTexture name="meatboy idle0011" x="998" y="0" width="487" height="361" frameX="-6" frameY="0" frameWidth="498" frameHeight="361"/>
+	<SubTexture name="meatboy idle0012" x="998" y="0" width="487" height="361" frameX="-6" frameY="0" frameWidth="498" frameHeight="361"/>
+	<SubTexture name="meatboy idle0013" x="998" y="0" width="487" height="361" frameX="-6" frameY="0" frameWidth="498" frameHeight="361"/>
+	<SubTexture name="meatboy hey0000" x="1490" y="0" width="466" height="365" frameX="-3" frameY="0" frameWidth="471" frameHeight="365"/>
+	<SubTexture name="meatboy hey0001" x="1490" y="0" width="466" height="365" frameX="-3" frameY="0" frameWidth="471" frameHeight="365"/>
+	<SubTexture name="meatboy hey0002" x="0" y="370" width="470" height="362" frameX="-1" frameY="-3" frameWidth="471" frameHeight="365"/>
+	<SubTexture name="meatboy hey0003" x="0" y="370" width="470" height="362" frameX="-1" frameY="-3" frameWidth="471" frameHeight="365"/>
+	<SubTexture name="meatboy hey0004" x="475" y="370" width="471" height="361" frameX="0" frameY="-4" frameWidth="471" frameHeight="365"/>
+	<SubTexture name="meatboy hey0005" x="475" y="370" width="471" height="361" frameX="0" frameY="-4" frameWidth="471" frameHeight="365"/>
+	<SubTexture name="meatboy hey0006" x="475" y="370" width="471" height="361" frameX="0" frameY="-4" frameWidth="471" frameHeight="365"/>
+	<SubTexture name="meatboy hey0007" x="475" y="370" width="471" height="361" frameX="0" frameY="-4" frameWidth="471" frameHeight="365"/>
+	<SubTexture name="meatboy hey0008" x="475" y="370" width="471" height="361" frameX="0" frameY="-4" frameWidth="471" frameHeight="365"/>
+	<SubTexture name="meatboy hey0009" x="475" y="370" width="471" height="361" frameX="0" frameY="-4" frameWidth="471" frameHeight="365"/>
+	<SubTexture name="meatboy hey0010" x="475" y="370" width="471" height="361" frameX="0" frameY="-4" frameWidth="471" frameHeight="365"/>
+	<SubTexture name="meatboy hey0011" x="475" y="370" width="471" height="361" frameX="0" frameY="-4" frameWidth="471" frameHeight="365"/>
+	<SubTexture name="meatboy hey0012" x="475" y="370" width="471" height="361" frameX="0" frameY="-4" frameWidth="471" frameHeight="365"/>
+	<SubTexture name="meatboy hey0013" x="475" y="370" width="471" height="361" frameX="0" frameY="-4" frameWidth="471" frameHeight="365"/>
+	<SubTexture name="meatboy hey0014" x="475" y="370" width="471" height="361" frameX="0" frameY="-4" frameWidth="471" frameHeight="365"/>
+</TextureAtlas>

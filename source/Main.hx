@@ -52,11 +52,8 @@ class Main extends Sprite
 	public function new()
 	{
 		super();
-        #if (android && EXTERNAL || MEDIA)
-        SUtil.doPermissionsShit();
-        #end
         #if mobile
-        Sys.setCwd(#if (android)Path.addTrailingSlash(#end SUtil.getStorageDirectory()#if (android))#end);
+        Sys.setCwd(#if (android)Path.addTrailingSlash(#end LimeSystem.applicationDirectory #if (android))#end);
         #end
 		mobile.backend.CrashHandler.init();
 
@@ -103,6 +100,9 @@ class Main extends Sprite
 			FlxG.bitmap.add(Paths.image('NEWGROUNDS'));
 			FlxG.sound.load(Paths.sound('newgrounds'));
 		}
+		// Couldn't find the mouse image in the mod assets :(
+		// var mouseGraphic = Paths.image('');
+		// FlxG.mouse.load();
 		fpsVar = new FPSCounter(10, 3, 0xFFFFFF);
 		addChild(fpsVar);
 		if(fpsVar != null)

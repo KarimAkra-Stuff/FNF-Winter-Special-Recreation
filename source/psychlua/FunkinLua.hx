@@ -1174,9 +1174,6 @@ class FunkinLua {
 		set("setHealthBarColors", function(left:String, right:String) {
 			game.healthBar.setColors(CoolUtil.colorFromString(left), CoolUtil.colorFromString(right));
 		});
-		set("setTimeBarColors", function(left:String, right:String) {
-			game.timeBar.setColors(CoolUtil.colorFromString(left), CoolUtil.colorFromString(right));
-		});
 
 		set("setObjectCamera", function(obj:String, camera:String = '') {
 			var real:FlxBasic = game.getLuaObject(obj);
@@ -1488,13 +1485,20 @@ class FunkinLua {
 		#if android AndroidFunctions.implement(this); #end
 
 		try{
-			var isString:Bool = !FileSystem.exists(scriptName);
 			var result:Dynamic = null;
+			#if MODS_ALLOWED
+			var isString:Bool = !FileSystem.exists(scriptName);
 			if(!isString)
 				result = LuaL.dofile(lua, scriptName);
 			else
 				result = LuaL.dostring(lua, scriptName);
-
+			#else
+			var isString:Bool = !openfl.Assets.exists(scriptName);
+			if(!isString)
+				result = LuaL.dostring(lua, openfl.Assets.getText(scriptName));
+			else
+				result = LuaL.dostring(lua, scriptName);
+			#end
 			var resultStr:String = Lua.tostring(lua, result);
 			if(resultStr != null && result != 0) {
 				trace(resultStr);

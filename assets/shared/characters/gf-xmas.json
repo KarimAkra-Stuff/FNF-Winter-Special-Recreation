@@ -1,0 +1,123 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-8,
+				-15
+			],
+			"anim": "sad",
+			"fps": 24,
+			"name": "gf sad",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				23
+			],
+			"anim": "cheer",
+			"fps": 24,
+			"name": "gf cheer",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "gf idle dance",
+			"indices": [
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "gf idle dance",
+			"indices": [
+				30,
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
+		},
+		{
+			"offsets": [
+				0,
+				-8
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "cutscene",
+			"loop": true,
+			"name": "gf cutscene wait"
+		},
+		{
+			"offsets": [
+				1,
+				-7
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "huh",
+			"loop": false,
+			"name": "gf surprised"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/gf-xmas-assets",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "gf",
+	"flip_x": false,
+	"healthbar_colors": [
+		165,
+		0,
+		77
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

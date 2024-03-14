@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="HENCHMAHS.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="henchmans fall0000" x="0" y="0" width="1396" height="701" frameX="-270" frameY="0" frameWidth="2235" frameHeight="984"/>
+	<SubTexture name="henchmans fall0001" x="1401" y="0" width="2072" height="754" frameX="0" frameY="-134" frameWidth="2235" frameHeight="984"/>
+	<SubTexture name="henchmans fall0002" x="0" y="759" width="1956" height="470" frameX="-279" frameY="-498" frameWidth="2235" frameHeight="984"/>
+	<SubTexture name="henchmans fall0003" x="0" y="759" width="1956" height="470" frameX="-279" frameY="-498" frameWidth="2235" frameHeight="984"/>
+	<SubTexture name="henchmans fall0004" x="1961" y="759" width="1938" height="496" frameX="-277" frameY="-485" frameWidth="2235" frameHeight="984"/>
+	<SubTexture name="henchmans fall0005" x="1961" y="759" width="1938" height="496" frameX="-277" frameY="-485" frameWidth="2235" frameHeight="984"/>
+	<SubTexture name="henchmans fall0006" x="0" y="1260" width="1919" height="496" frameX="-294" frameY="-487" frameWidth="2235" frameHeight="984"/>
+	<SubTexture name="henchmans fall0007" x="1924" y="1260" width="1919" height="496" frameX="-294" frameY="-487" frameWidth="2235" frameHeight="984"/>
+	<SubTexture name="henchmans fall0008" x="1924" y="1260" width="1919" height="496" frameX="-294" frameY="-487" frameWidth="2235" frameHeight="984"/>
+	<SubTexture name="henchmans fall0009" x="0" y="1761" width="1918" height="497" frameX="-294" frameY="-487" frameWidth="2235" frameHeight="984"/>
+	<SubTexture name="henchmans static0000" x="1923" y="1761" width="1919" height="496" frameX="0" frameY="0" frameWidth="1919" frameHeight="497"/>
+	<SubTexture name="henchmans static0001" x="1923" y="1761" width="1919" height="496" frameX="0" frameY="0" frameWidth="1919" frameHeight="497"/>
+	<SubTexture name="henchmans static0002" x="1923" y="1761" width="1919" height="496" frameX="0" frameY="0" frameWidth="1919" frameHeight="497"/>
+	<SubTexture name="henchmans static0003" x="0" y="1761" width="1918" height="497" frameX="0" frameY="0" frameWidth="2235" frameHeight="984"/>
+	<SubTexture name="henchmans static0004" x="0" y="1761" width="1918" height="497" frameX="0" frameY="0" frameWidth="2235" frameHeight="984"/>
+	<SubTexture name="henchmans static0005" x="0" y="1761" width="1918" height="497" frameX="0" frameY="0" frameWidth="2235" frameHeight="984"/>
+</TextureAtlas>

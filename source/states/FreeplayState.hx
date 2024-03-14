@@ -460,7 +460,7 @@ class FreeplayState extends MusicBeatState
 			#if MODS_ALLOWED
 			var character:Dynamic = Json.parse(File.getContent(path));
 			#else
-			var character:Dynamic = Json.parse(Assets.getText(path));
+			var character:Dynamic = Json.parse(openfl.Assets.getText(path));
 			#end
 			return character.vocals_file;
 		}

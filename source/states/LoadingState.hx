@@ -108,20 +108,14 @@ class LoadingState extends MusicBeatState
 		add(logo);
 
 		#else // BASE GAME LOADING SCREEN
-		var bg = new FlxSprite().makeGraphic(1, 1, 0xFFCAFF4D);
-		bg.scale.set(FlxG.width, FlxG.height);
-		bg.updateHitbox();
-		bg.screenCenter();
-		add(bg);
-
-		funkay = new FlxSprite(0, 0).loadGraphic(Paths.image('funkay'));
+		funkay = new FlxSprite(0, 0).loadGraphic(Paths.image('load_screen_ws'));
 		funkay.antialiasing = ClientPrefs.data.antialiasing;
 		funkay.setGraphicSize(0, FlxG.height);
 		funkay.updateHitbox();
 		add(funkay);
 		#end
 
-		var bg:FlxSprite = new FlxSprite(0, 660).makeGraphic(1, 1, FlxColor.BLACK);
+		var bg:FlxSprite = new FlxSprite(0, FlxG.height - 30).makeGraphic(1, 1, FlxColor.BLACK);
 		bg.scale.set(FlxG.width - 300, 25);
 		bg.updateHitbox();
 		bg.screenCenter(X);
@@ -343,7 +337,8 @@ class LoadingState extends MusicBeatState
 				if (FileSystem.exists(moddyFile)) json = Json.parse(File.getContent(moddyFile));
 				else json = Json.parse(File.getContent(path));
 				#else
-				json = Json.parse(Assets.getText(path));
+				if(Assets.exists(path))
+					json = Json.parse(Assets.getText(path));
 				#end
 
 				if (json != null)
@@ -416,7 +411,7 @@ class LoadingState extends MusicBeatState
 
 	static function clearInvalidFrom(arr:Array<String>, prefix:String, ext:String, type:AssetType, ?library:String = null)
 	{
-                #if MODS_ALLOWED
+        #if MODS_ALLOWED
 		for (i in 0...arr.length)
 		{
 			var folder:String = arr[i];

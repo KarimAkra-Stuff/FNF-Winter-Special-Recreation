@@ -1,1 +1,213 @@
-{"song":{"player1":"bf-christmas","song":"Eggnog","player2":"parents-christmas","notes":[{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[[6000,-1,"Hey!","1","0.5"]],"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[[9200,-1,"Hey!","1",""]],"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[[12400,-1,"Hey!","1","0.5"]],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[[15600,-1,"Hey!","1",""]],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"altAnim":true,"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[[18800,-1,"Hey!","1","0.5"]],"altAnim":true,"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[],"altAnim":true,"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[[22000,-1,"Hey!","1","0.5"]],"altAnim":true,"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[],"altAnim":true,"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[[25200,-1,"Hey!","1","0.5"]],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[[31600,-1,"Hey!","1","0.5"]],"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[[34800,-1,"Hey!","1","0.5"]],"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[[38000,-1,"Hey!","1","0.5"]],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[[41200,-1,"Hey!","1","0.5"]],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"altAnim":true,"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[],"altAnim":true,"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"altAnim":true,"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[[47600,-1,"Hey!","1","0.5"]],"altAnim":true,"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[[50800,-1,"Hey!","1","0.5"]],"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[[54000,-1,"Hey!","1",""]],"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[[57200,-1,"Hey!","1","0.5"]],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[[60400,-1,"Hey!","1",""]],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"altAnim":true,"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[[63600,-1,"Hey!","1","0.5"]],"altAnim":true,"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[[66800,-1,"Hey!","1","0.5"]],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"altAnim":true,"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[[70000,-1,"Hey!","1","0.5"]],"altAnim":true,"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[[76400,-1,"Hey!","1","0.5"]],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[[79600,-1,"Hey!","1","0.5"]],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[[82800,-1,"Hey!","1","0.5"]],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[[86000,-1,"Hey!","1","0.5"]],"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"altAnim":true,"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[],"altAnim":true,"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"altAnim":true,"mustHitSection":false},{"lengthInSteps":16,"sectionNotes":[],"altAnim":true,"mustHitSection":true},{"lengthInSteps":16,"sectionNotes":[],"mustHitSection":true},{"sectionNotes":[],"typeOfSection":0,"lengthInSteps":16,"altAnim":false,"mustHitSection":true,"changeBPM":false,"bpm":150},{"lengthInSteps":16,"altAnim":false,"typeOfSection":0,"sectionNotes":[],"bpm":150,"changeBPM":false,"mustHitSection":true}],"needsVoices":true,"validScore":true,"bpm":150,"speed":1.9}}
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Smooth cam zoom",
+						".3",
+						"3.1"
+					]
+				]
+			],
+			[
+				9290.32258064516,
+				[
+					[
+						"Smooth cam zoom",
+						".35",
+						"1"
+					]
+				]
+			],
+			[
+				15483.8709677419,
+				[
+					[
+						"Smooth cam zoom",
+						".3",
+						"1"
+					]
+				]
+			],
+			[
+				34064.5161290323,
+				[
+					[
+						"Smooth cam zoom",
+						".4",
+						"1"
+					]
+				]
+			],
+			[
+				40258.064516129,
+				[
+					[
+						"Smooth cam zoom",
+						".3",
+						"1"
+					]
+				]
+			],
+			[
+				41806.4516129032,
+				[
+					[
+						"Smooth cam zoom",
+						".35",
+						"1"
+					]
+				]
+			],
+			[
+				43354.8387096774,
+				[
+					[
+						"Smooth cam zoom",
+						".3",
+						"1"
+					],
+					[
+						"Change Character",
+						"dad",
+						"parents-xmas-together"
+					]
+				]
+			],
+			[
+				44903.2258064516,
+				[
+					[
+						"Smooth cam zoom",
+						".35",
+						"1"
+					]
+				]
+			],
+			[
+				46451.6129032258,
+				[
+					[
+						"Smooth cam zoom",
+						".3",
+						"1"
+					],
+					[
+						"Change Character",
+						"dad",
+						"parents-xmas"
+					]
+				]
+			],
+			[
+				52645.1612903226,
+				[
+					[
+						"Smooth cam zoom",
+						".35",
+						"1"
+					]
+				]
+			],
+			[
+				58838.7096774194,
+				[
+					[
+						"Smooth cam zoom",
+						".3",
+						"1"
+					]
+				]
+			],
+			[
+				78000.0000000001,
+				[
+					[
+						"Smooth cam zoom",
+						".35",
+						""
+					]
+				]
+			],
+			[
+				83612.9032258066,
+				[
+					[
+						"Smooth cam zoom",
+						".3",
+						"1"
+					]
+				]
+			],
+			[
+				85161.2903225808,
+				[
+					[
+						"Smooth cam zoom",
+						".35",
+						"1"
+					]
+				]
+			],
+			[
+				86709.6774193549,
+				[
+					[
+						"Smooth cam zoom",
+						".3",
+						"1"
+					],
+					[
+						"Change Character",
+						"dad",
+						"parents-xmas-together"
+					]
+				]
+			],
+			[
+				88258.0645161291,
+				[
+					[
+						"Smooth cam zoom",
+						".4",
+						"1"
+					]
+				]
+			],
+			[
+				89806.4516129033,
+				[
+					[
+						"Smooth cam zoom",
+						".28",
+						"17"
+					],
+					[
+						"",
+						"fireworks",
+						""
+					],
+					[
+						"",
+						"eggnog ending",
+						""
+					]
+				],
+				null,
+				""
+			],
+			[
+				96000.0000000001,
+				[
+					[
+						"Blackscreen",
+						"8",
+						""
+					]
+				]
+			]
+		]
+	}
+}

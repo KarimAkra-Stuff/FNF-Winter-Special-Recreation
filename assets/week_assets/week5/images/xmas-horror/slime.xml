@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="slime.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="slime on screen0000" x="1" y="1" width="641" height="600" frameX="0" frameY="0" frameWidth="641" frameHeight="628"/>
+	<SubTexture name="slime on screen0001" x="1" y="602" width="580" height="583" frameX="-32" frameY="-30" frameWidth="641" frameHeight="628"/>
+	<SubTexture name="slime on screen0002" x="1" y="602" width="580" height="583" frameX="-32" frameY="-30" frameWidth="641" frameHeight="628"/>
+	<SubTexture name="slime on screen0003" x="643" y="1" width="577" height="597" frameX="-34" frameY="-31" frameWidth="641" frameHeight="628"/>
+	<SubTexture name="slime on screen0004" x="643" y="1" width="577" height="597" frameX="-34" frameY="-31" frameWidth="641" frameHeight="628"/>
+	<SubTexture name="slime on screen0005" x="643" y="599" width="574" height="595" frameX="-36" frameY="-31" frameWidth="641" frameHeight="628"/>
+	<SubTexture name="slime on screen0006" x="643" y="599" width="574" height="595" frameX="-36" frameY="-31" frameWidth="641" frameHeight="628"/>
+	<SubTexture name="slime on screen0007" x="643" y="1" width="577" height="597" frameX="-34" frameY="-31" frameWidth="641" frameHeight="628"/>
+	<SubTexture name="slime on screen0008" x="643" y="1" width="577" height="597" frameX="-34" frameY="-31" frameWidth="641" frameHeight="628"/>
+	<SubTexture name="slime on screen0009" x="643" y="599" width="574" height="595" frameX="-36" frameY="-31" frameWidth="641" frameHeight="628"/>
+	<SubTexture name="slime on screen0010" x="643" y="599" width="574" height="595" frameX="-36" frameY="-31" frameWidth="641" frameHeight="628"/>
+	<SubTexture name="slime on screen0011" x="643" y="1" width="577" height="597" frameX="-34" frameY="-31" frameWidth="641" frameHeight="628"/>
+	<SubTexture name="slime on screen0012" x="643" y="1" width="577" height="597" frameX="-34" frameY="-31" frameWidth="641" frameHeight="628"/>
+	<SubTexture name="slime on screen0013" x="643" y="599" width="574" height="595" frameX="-36" frameY="-31" frameWidth="641" frameHeight="628"/>
+	<SubTexture name="slime on screen0014" x="643" y="599" width="574" height="595" frameX="-36" frameY="-31" frameWidth="641" frameHeight="628"/>
+	<SubTexture name="slime on screen0015" x="643" y="1" width="577" height="597" frameX="-34" frameY="-31" frameWidth="641" frameHeight="628"/>
+	<SubTexture name="slime on screen0016" x="643" y="1" width="577" height="597" frameX="-34" frameY="-31" frameWidth="641" frameHeight="628"/>
+	<SubTexture name="slime on screen0017" x="643" y="599" width="574" height="595" frameX="-36" frameY="-31" frameWidth="641" frameHeight="628"/>
+	<SubTexture name="slime on screen0018" x="643" y="599" width="574" height="595" frameX="-36" frameY="-31" frameWidth="641" frameHeight="628"/>
+	<SubTexture name="slime on screen0019" x="643" y="1" width="577" height="597" frameX="-34" frameY="-31" frameWidth="641" frameHeight="628"/>
+</TextureAtlas>

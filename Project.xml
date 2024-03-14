@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Friday Night Funkin': Psych Engine" file="PsychEngine" packageName="com.shadowmario.psychengine" package="com.shadowmario.psychengine" main="Main" version="0.2.8" company="ShadowMario" />
+	<app title="FNF': Winter Special" file="WinterSpecial" packageName="com.karimakra.winterspecial" package="com.karimakra.winterspecial" main="Main" version="0.2.8" company="KarimAkra" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
@@ -20,7 +20,7 @@
 	
 	<!-- ______________________ PSYCH ENGINE CUSTOMIZATION ______________________ -->
 
-	<define name="MODS_ALLOWED" if="desktop || mobile || emscripten" />
+	<!--<define name="MODS_ALLOWED" if="desktop || mobile || emscripten" /> -->
 	<define name="HSCRIPT_ALLOWED" if="desktop || mobile || web" />
 	<define name="LUA_ALLOWED" if="desktop || mobile" unless="hl"/>
 	<define name="ACHIEVEMENTS_ALLOWED" />
@@ -56,7 +56,7 @@
 	<set name="BUILD_DIR" value="export/debug" if="debug" />
 	<set name="BUILD_DIR" value="export/release" unless="debug" />
 	<set name="BUILD_DIR" value="export/32bit" if="32bits" />
-        <set name="BUILD_DIR" value="export/rpi" if="rpi" />
+    <set name="BUILD_DIR" value="export/rpi" if="rpi" />
 
 	<classpath name="source" />
 
@@ -114,7 +114,7 @@
 	<haxelib name="tjson"/>
 
 	<!-- Mobile Specific-->
-	<haxelib name="extension-androidtools" if="android" />
+	<!-- <haxelib name="extension-androidtools" if="android" /> -->
 	<!--<haxelib name="hx-ios-uikit" if="ios" />-->
 
 	<!-- Disable Discord IO Thread -->
@@ -123,6 +123,12 @@
 
 	<!-- Enables a terminal log prompt on debug builds -->
 	<haxelib name="hxcpp-debug-server" if="debug"/>
+	<section if="desktop">
+		<!--Enable Handle Error-->
+		<haxedef name="openfl_enable_handle_error" if="${openfl &ge; 9.4.0}" />
+		<!--Undefinitions-->
+		<undefine name="openfl-disable-handle-error" if="debug" unless="${openfl &ge; 9.4.0}" />
+	</section>
 
 	<!-- ______________________________ Haxedefines _____________________________ -->
 
@@ -152,7 +158,7 @@
 
 	<!-- Show debug traces for hxCodec -->
 	<haxedef name="HXC_DEBUG_TRACE" if="debug hxCodec" />
-        <haxedef name="HXC_LIBVLC_LOGGING" if="debug hxCodec" />
+    <haxedef name="HXC_LIBVLC_LOGGING" if="debug hxCodec" />
 	
 	<!--Disable the Flixel core debugger. Automatically gets set whenever you compile in release mode!-->
 	<haxedef name="FLX_NO_DEBUG" unless="debug" />
@@ -169,15 +175,8 @@
 		<haxedef name="HXCPP_STACK_LINE" />
 		<haxedef name="HXCPP_STACK_TRACE" />
 	
-		<section if="android">
-			<!-- Do whatever you want I'm tired uninstall and install everytime -->
-			<certificate path="key.keystore" password="nullfunni" alias="null" alias-password="nullfunni" unless="debug" />
-
-			<!--Target SDK-->
-			<android target-sdk-version="29" if="EXTERNAL || MEDIA"/>
-
-            <config:android permission="android.permission.MANAGE_EXTERNAL_STORAGE" if="EXTERNAL || MEDIA"/>
-		</section>
+		<!--Target SDK-->
+		<android target-sdk-version="29" if="android"/>
 
 		<section if="ios">
 			<define name='objc' />

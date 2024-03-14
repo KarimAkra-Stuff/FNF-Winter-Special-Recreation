@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cops.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cops dead0000" x="0" y="0" width="1205" height="889" frameX="0" frameY="0" frameWidth="1206" frameHeight="890"/>
+	<SubTexture name="cops dead0001" x="0" y="0" width="1205" height="889" frameX="0" frameY="0" frameWidth="1206" frameHeight="890"/>
+	<SubTexture name="cops dead0002" x="0" y="894" width="1206" height="890"/>
+	<SubTexture name="cops dead0003" x="0" y="894" width="1206" height="890"/>
+	<SubTexture name="cops dead0004" x="0" y="0" width="1205" height="889" frameX="0" frameY="0" frameWidth="1206" frameHeight="890"/>
+	<SubTexture name="cops dead0005" x="0" y="0" width="1205" height="889" frameX="0" frameY="0" frameWidth="1206" frameHeight="890"/>
+	<SubTexture name="cops dead0006" x="0" y="894" width="1206" height="890"/>
+	<SubTexture name="cops dead0007" x="0" y="894" width="1206" height="890"/>
+	<SubTexture name="cops dead0008" x="0" y="0" width="1205" height="889" frameX="0" frameY="0" frameWidth="1206" frameHeight="890"/>
+	<SubTexture name="cops dead0009" x="0" y="0" width="1205" height="889" frameX="0" frameY="0" frameWidth="1206" frameHeight="890"/>
+	<SubTexture name="cops dead0010" x="0" y="894" width="1206" height="890"/>
+	<SubTexture name="cops dead0011" x="0" y="894" width="1206" height="890"/>
+</TextureAtlas>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="people_back.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="people back0000" x="1" y="1" width="688" height="399" frameX="-24" frameY="-14" frameWidth="712" frameHeight="413"/>
+	<SubTexture name="people back0001" x="1" y="1" width="688" height="399" frameX="-24" frameY="-14" frameWidth="712" frameHeight="413"/>
+	<SubTexture name="people back0002" x="1" y="1" width="688" height="399" frameX="-24" frameY="-14" frameWidth="712" frameHeight="413"/>
+	<SubTexture name="people back0003" x="1" y="1" width="688" height="399" frameX="-24" frameY="-14" frameWidth="712" frameHeight="413"/>
+	<SubTexture name="people back0004" x="690" y="1" width="707" height="405" frameX="0" frameY="0" frameWidth="712" frameHeight="413"/>
+	<SubTexture name="people back0005" x="690" y="1" width="707" height="405" frameX="0" frameY="0" frameWidth="712" frameHeight="413"/>
+	<SubTexture name="people back0006" x="690" y="1" width="707" height="405" frameX="0" frameY="0" frameWidth="712" frameHeight="413"/>
+	<SubTexture name="people back0007" x="690" y="1" width="707" height="405" frameX="0" frameY="0" frameWidth="712" frameHeight="413"/>
+	<SubTexture name="people back0008" x="1398" y="1" width="700" height="390" frameX="-12" frameY="-8" frameWidth="712" frameHeight="413"/>
+	<SubTexture name="people back0009" x="1398" y="1" width="700" height="390" frameX="-12" frameY="-8" frameWidth="712" frameHeight="413"/>
+	<SubTexture name="people back0010" x="1398" y="1" width="700" height="390" frameX="-12" frameY="-8" frameWidth="712" frameHeight="413"/>
+	<SubTexture name="people back0011" x="1398" y="1" width="700" height="390" frameX="-12" frameY="-8" frameWidth="712" frameHeight="413"/>
+</TextureAtlas>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="upper_boppers.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="chars back rail0000" x="1" y="1" width="2603" height="480" frameX="0" frameY="-7" frameWidth="2603" frameHeight="487"/>
+	<SubTexture name="chars back rail0001" x="1" y="1" width="2603" height="480" frameX="0" frameY="-7" frameWidth="2603" frameHeight="487"/>
+	<SubTexture name="chars back rail0002" x="1" y="482" width="2600" height="485" frameX="0" frameY="-2" frameWidth="2603" frameHeight="487"/>
+	<SubTexture name="chars back rail0003" x="1" y="482" width="2600" height="485" frameX="0" frameY="-2" frameWidth="2603" frameHeight="487"/>
+	<SubTexture name="chars back rail0004" x="1" y="968" width="2599" height="487" frameX="0" frameY="0" frameWidth="2603" frameHeight="487"/>
+	<SubTexture name="chars back rail0005" x="1" y="968" width="2599" height="487" frameX="0" frameY="0" frameWidth="2603" frameHeight="487"/>
+	<SubTexture name="chars back rail0006" x="1" y="1456" width="2599" height="487" frameX="0" frameY="0" frameWidth="2603" frameHeight="487"/>
+	<SubTexture name="chars back rail0007" x="1" y="1456" width="2599" height="487" frameX="0" frameY="0" frameWidth="2603" frameHeight="487"/>
+</TextureAtlas>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="monster-back-restourant.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="evil idle0000" x="21" y="21" width="444" height="288" frameX="0" frameY="-11" frameWidth="444" frameHeight="299"/>
+	<SubTexture name="evil idle0001" x="21" y="21" width="444" height="288" frameX="0" frameY="-11" frameWidth="444" frameHeight="299"/>
+	<SubTexture name="evil idle0002" x="486" y="21" width="415" height="287" frameX="-4" frameY="-4" frameWidth="444" frameHeight="299"/>
+	<SubTexture name="evil idle0003" x="486" y="21" width="415" height="287" frameX="-4" frameY="-4" frameWidth="444" frameHeight="299"/>
+	<SubTexture name="evil idle0004" x="21" y="330" width="394" height="291" frameX="-21" frameY="0" frameWidth="444" frameHeight="299"/>
+	<SubTexture name="evil idle0005" x="21" y="330" width="394" height="291" frameX="-21" frameY="0" frameWidth="444" frameHeight="299"/>
+	<SubTexture name="evil idle0006" x="21" y="330" width="394" height="291" frameX="-21" frameY="0" frameWidth="444" frameHeight="299"/>
+	<SubTexture name="evil idle0007" x="21" y="330" width="394" height="291" frameX="-21" frameY="0" frameWidth="444" frameHeight="299"/>
+	<SubTexture name="evil idle0008" x="21" y="330" width="394" height="291" frameX="-21" frameY="0" frameWidth="444" frameHeight="299"/>
+	<SubTexture name="evil idle0009" x="21" y="330" width="394" height="291" frameX="-21" frameY="0" frameWidth="444" frameHeight="299"/>
+</TextureAtlas>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="super-meat-boy.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="super meat boy evil0000" x="0" y="0" width="518" height="314" frameX="0" frameY="-12" frameWidth="518" frameHeight="326"/>
+	<SubTexture name="super meat boy evil0001" x="0" y="0" width="518" height="314" frameX="0" frameY="-12" frameWidth="518" frameHeight="326"/>
+	<SubTexture name="super meat boy evil0002" x="0" y="319" width="510" height="323" frameX="-4" frameY="-3" frameWidth="518" frameHeight="326"/>
+	<SubTexture name="super meat boy evil0003" x="0" y="319" width="510" height="323" frameX="-4" frameY="-3" frameWidth="518" frameHeight="326"/>
+	<SubTexture name="super meat boy evil0004" x="515" y="319" width="507" height="326" frameX="-5" frameY="0" frameWidth="518" frameHeight="326"/>
+	<SubTexture name="super meat boy evil0005" x="515" y="319" width="507" height="326" frameX="-5" frameY="0" frameWidth="518" frameHeight="326"/>
+	<SubTexture name="super meat boy evil0006" x="515" y="319" width="507" height="326" frameX="-5" frameY="0" frameWidth="518" frameHeight="326"/>
+	<SubTexture name="super meat boy evil0007" x="515" y="319" width="507" height="326" frameX="-5" frameY="0" frameWidth="518" frameHeight="326"/>
+	<SubTexture name="super meat boy evil0008" x="515" y="319" width="507" height="326" frameX="-5" frameY="0" frameWidth="518" frameHeight="326"/>
+	<SubTexture name="super meat boy evil0009" x="515" y="319" width="507" height="326" frameX="-5" frameY="0" frameWidth="518" frameHeight="326"/>
+</TextureAtlas>
