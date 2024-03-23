@@ -11,6 +11,13 @@ import lime.utils.Log as LimeLogger;
 import sys.io.File;
 import sys.FileSystem;
 #end
+#if android
+import android.content.Context as AndroidContext;
+import android.widget.Toast as AndroidToast;
+import android.os.Environment as AndroidEnvironment;
+import android.Permissions as AndroidPermissions;
+import android.Settings as AndroidSettings;
+#end
 
 /**
  * A storage class for mobile.
