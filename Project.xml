@@ -20,7 +20,7 @@
 	
 	<!-- ______________________ PSYCH ENGINE CUSTOMIZATION ______________________ -->
 
-	<!--<define name="MODS_ALLOWED" if="desktop || mobile || emscripten" /> -->
+	<define name="MODS_ALLOWED" if="desktop || emscripten" />
 	<define name="HSCRIPT_ALLOWED" if="desktop || mobile || web" />
 	<define name="LUA_ALLOWED" if="desktop || mobile" unless="hl"/>
 	<define name="ACHIEVEMENTS_ALLOWED" />
@@ -114,7 +114,7 @@
 	<haxelib name="tjson"/>
 
 	<!-- Mobile Specific-->
-	<!-- <haxelib name="extension-androidtools" if="android" /> -->
+	<haxelib name="extension-androidtools" if="android" />
 	<!--<haxelib name="hx-ios-uikit" if="ios" />-->
 
 	<!-- Disable Discord IO Thread -->
@@ -175,8 +175,16 @@
 		<haxedef name="HXCPP_STACK_LINE" />
 		<haxedef name="HXCPP_STACK_TRACE" />
 	
-		<!--Target SDK-->
-		<android target-sdk-version="29" if="android"/>
+	
+		<section if="android">
+			<!-- Do whatever you want I'm tired uninstall and install everytime -->
+			<certificate path="key.keystore" password="nullfunni" alias="null" alias-password="nullfunni" unless="debug" />
+
+			<!--Target SDK-->
+			<android target-sdk-version="29" if="EXTERNAL || MEDIA"/>
+
+            <config:android permission="android.permission.MANAGE_EXTERNAL_STORAGE" if="EXTERNAL || MEDIA"/>
+		</section>
 
 		<section if="ios">
 			<define name='objc' />

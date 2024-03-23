@@ -52,8 +52,11 @@ class Main extends Sprite
 	public function new()
 	{
 		super();
+        #if (android && EXTERNAL || MEDIA)
+        SUtil.doPermissionsShit();
+        #end
         #if mobile
-        Sys.setCwd(#if (android)Path.addTrailingSlash(#end LimeSystem.applicationDirectory #if (android))#end);
+        Sys.setCwd(#if (android)Path.addTrailingSlash(#end SUtil.getStorageDirectory()#if (android))#end);
         #end
 		mobile.backend.CrashHandler.init();
 
