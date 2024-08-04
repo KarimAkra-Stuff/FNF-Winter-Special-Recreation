@@ -7,7 +7,7 @@ import flixel.FlxObject;
 import flixel.FlxSubState;
 
 import states.StoryMenuState;
-import states.FreeplayState;
+import states.freeplay.FreeplayState;
 
 class GameOverSubstate extends MusicBeatSubstate
 {

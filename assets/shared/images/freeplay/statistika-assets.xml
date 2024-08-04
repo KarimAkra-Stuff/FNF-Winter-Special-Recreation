@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="statistika-assets.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="combo0000" x="0" y="0" width="193" height="46" frameX="0" frameY="-28" frameWidth="199" frameHeight="103"/>
+	<SubTexture name="combo0001" x="198" y="0" width="193" height="103" frameX="0" frameY="0" frameWidth="199" frameHeight="103"/>
+	<SubTexture name="combo0002" x="198" y="0" width="193" height="103" frameX="0" frameY="0" frameWidth="199" frameHeight="103"/>
+	<SubTexture name="combo0003" x="396" y="0" width="198" height="74" frameX="-1" frameY="-8" frameWidth="199" frameHeight="103"/>
+	<SubTexture name="combo0004" x="396" y="0" width="198" height="74" frameX="-1" frameY="-8" frameWidth="199" frameHeight="103"/>
+	<SubTexture name="combo0005" x="599" y="0" width="197" height="77" frameX="-1" frameY="-7" frameWidth="199" frameHeight="103"/>
+	<SubTexture name="combo0006" x="599" y="0" width="197" height="77" frameX="-1" frameY="-7" frameWidth="199" frameHeight="103"/>
+	<SubTexture name="difficulty0000" x="0" y="108" width="267" height="40" frameX="-3" frameY="-26" frameWidth="280" frameHeight="92"/>
+	<SubTexture name="difficulty0001" x="272" y="108" width="271" height="92" frameX="-3" frameY="0" frameWidth="280" frameHeight="92"/>
+	<SubTexture name="difficulty0002" x="272" y="108" width="271" height="92" frameX="-3" frameY="0" frameWidth="280" frameHeight="92"/>
+	<SubTexture name="difficulty0003" x="548" y="108" width="279" height="66" frameX="0" frameY="-12" frameWidth="280" frameHeight="92"/>
+	<SubTexture name="difficulty0004" x="548" y="108" width="279" height="66" frameX="0" frameY="-12" frameWidth="280" frameHeight="92"/>
+	<SubTexture name="difficulty0005" x="0" y="205" width="279" height="66" frameX="-1" frameY="-14" frameWidth="280" frameHeight="92"/>
+	<SubTexture name="difficulty0006" x="0" y="205" width="279" height="66" frameX="-1" frameY="-14" frameWidth="280" frameHeight="92"/>
+	<SubTexture name="misses0000" x="284" y="205" width="201" height="36" frameX="0" frameY="-28" frameWidth="204" frameHeight="93"/>
+	<SubTexture name="misses0001" x="490" y="205" width="201" height="93" frameX="0" frameY="0" frameWidth="204" frameHeight="93"/>
+	<SubTexture name="misses0002" x="490" y="205" width="201" height="93" frameX="0" frameY="0" frameWidth="204" frameHeight="93"/>
+	<SubTexture name="misses0003" x="696" y="205" width="202" height="71" frameX="-2" frameY="-14" frameWidth="204" frameHeight="93"/>
+	<SubTexture name="misses0004" x="696" y="205" width="202" height="71" frameX="-2" frameY="-14" frameWidth="204" frameHeight="93"/>
+	<SubTexture name="misses0005" x="0" y="303" width="200" height="69" frameX="-2" frameY="-14" frameWidth="204" frameHeight="93"/>
+	<SubTexture name="misses0006" x="0" y="303" width="200" height="69" frameX="-2" frameY="-14" frameWidth="204" frameHeight="93"/>
+	<SubTexture name="score0000" x="205" y="303" width="202" height="29" frameX="0" frameY="-39" frameWidth="202" frameHeight="108"/>
+	<SubTexture name="score0001" x="412" y="303" width="202" height="108"/>
+	<SubTexture name="score0002" x="412" y="303" width="202" height="108"/>
+	<SubTexture name="score0003" x="619" y="303" width="197" height="90" frameX="-3" frameY="-9" frameWidth="202" frameHeight="108"/>
+	<SubTexture name="score0004" x="619" y="303" width="197" height="90" frameX="-3" frameY="-9" frameWidth="202" frameHeight="108"/>
+	<SubTexture name="score0005" x="821" y="303" width="197" height="91" frameX="-3" frameY="-9" frameWidth="202" frameHeight="108"/>
+	<SubTexture name="score0006" x="821" y="303" width="197" height="91" frameX="-3" frameY="-9" frameWidth="202" frameHeight="108"/>
+</TextureAtlas>

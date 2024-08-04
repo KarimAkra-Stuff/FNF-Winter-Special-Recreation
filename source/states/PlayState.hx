@@ -1,6 +1,7 @@
 package states;
 
 import backend.Highscore;
+import backend.Highscore.SongData as ScoreData;
 import backend.StageData;
 import backend.WeekData;
 import backend.Song;
@@ -24,7 +25,7 @@ import cutscenes.CutsceneHandler;
 import cutscenes.DialogueBoxPsych;
 
 import states.StoryMenuState;
-import states.FreeplayState;
+import states.freeplay.FreeplayState;
 import states.editors.ChartingState;
 import states.editors.CharacterEditorState;
 
@@ -82,16 +83,13 @@ class PlayState extends MusicBeatState
 	public static var STRUM_X_MIDDLESCROLL = -278;
 
 	public static var ratingStuff:Array<Dynamic> = [
-		['You Suck!', 0.2], //From 0% to 19%
-		['Shit', 0.4], //From 20% to 39%
-		['Bad', 0.5], //From 40% to 49%
-		['Bruh', 0.6], //From 50% to 59%
-		['Meh', 0.69], //From 60% to 68%
-		['Nice', 0.7], //69%
-		['Good', 0.8], //From 70% to 79%
-		['Great', 0.9], //From 80% to 89%
-		['Sick!', 1], //From 90% to 99%
-		['Perfect!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
+		['F', 0.2], //From 0% to 19%
+		['D', 0.4], //From 20% to 39%
+		['C', 0.5], //40% to 49%
+		['B', 0.8], //From 60% to 79%
+		['A', 0.9], //From 80% to 89%
+		['S', 1], //From 90% to 99%
+		['P', 1] //The value on this one isn't used actually, since Perfect is always "1"
 	];
 
 	//event variables
@@ -185,6 +183,7 @@ class PlayState extends MusicBeatState
 	public var gfSpeed:Int = 1;
 	public var health(default, set):Float = 1;
 	public var combo:Int = 0;
+	public var maxCombo:Int = 0;
 
 	public var healthBar:Bar;
 	var songPercent:Float = 0;
@@ -538,8 +537,8 @@ class PlayState extends MusicBeatState
 		iconP2.alpha = ClientPrefs.data.healthBarAlpha;
 		uiGroup.add(iconP2);
 
-		scoreTxt = new FlxText(0, healthBar.y + 40, FlxG.width, "", 20);
-		scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		scoreTxt = new FlxText(0, healthBar.y + 40, FlxG.width, "", 16);
+		scoreTxt.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		scoreTxt.scrollFactor.set();
 		scoreTxt.borderSize = 1.25;
 		scoreTxt.visible = !ClientPrefs.data.hideHud;
@@ -1101,19 +1100,19 @@ class PlayState extends MusicBeatState
 		if (ret == LuaUtils.Function_Stop)
 			return;
 
-		var str:String = ratingName;
+		/*var str:String = ratingName;
 		if(totalPlayed != 0)
 		{
 			var percent:Float = CoolUtil.floorDecimal(ratingPercent * 100, 2);
 			str += ' (${percent}%) - ${ratingFC}';
-		}
+		}*/
 
-		var tempScore:String = 'Score: ${songScore}'
-		+ (!instakillOnMiss ? ' | Misses: ${songMisses}' : "")
-		+ ' | Rating: ${str}';
+		var tempScore:String = 'Score:$songScore'
+		+ (!instakillOnMiss ? '    Misses:$songMisses' : "")
+		+ '    Rating:$ratingName';
 		// "tempScore" variable is used to prevent another memory leak, just in case
 		// "\n" here prevents the text from being cut off by beat zooms
-		scoreTxt.text = '${tempScore}\n';
+		scoreTxt.text = '$tempScore\n';
 
 		if (!miss && !cpuControlled)
 			doScoreBop();
@@ -1436,6 +1435,13 @@ class PlayState extends MusicBeatState
 	}
 
 	function eventEarlyTrigger(event:EventNote):Float {
+		if(MusicBeatState.getState().stages[0] != null)
+		{
+			var returnedValue:Null<Float> = MusicBeatState.getState().stages[0].eventEarlyTrigger(event);
+			if(returnedValue != null && returnedValue != 0)
+				return returnedValue;
+		}
+		
 		var returnedValue:Null<Float> = callOnScripts('eventEarlyTrigger', [event.event, event.value1, event.value2, event.strumTime], true, [], [0]);
 		if(returnedValue != null && returnedValue != 0 && returnedValue != LuaUtils.Function_Continue) {
 			return returnedValue;
@@ -2107,7 +2113,7 @@ class PlayState extends MusicBeatState
 					camHUD.zoom += flValue2;
 				}
 			case 'Smooth cam zoom':
-				if(flValue2 == null) flValue2 = 1;
+				if(flValue2 == null) flValue2 = .1;
 				canAddZoom = false;
 				FlxTween.tween(this, {defaultCamZoom: flValue1}, flValue2, {ease: FlxEase.sineOut, onComplete: (twn) -> {
 					canAddZoom = true;
@@ -2427,6 +2433,13 @@ class PlayState extends MusicBeatState
 			var percent:Float = ratingPercent;
 			if(Math.isNaN(percent)) percent = 0;
 			Highscore.saveScore(SONG.song, songScore, storyDifficulty, percent);
+			var songData:ScoreData = {
+				score: songScore,
+				combo: maxCombo-1, // the combo is greater by 1 for some reason?
+				misses: songMisses,
+				ratingLetter: ratingName
+			};
+			Highscore.saveSongData(SONG.song, songData, storyDifficulty);
 			#end
 			playbackRate = 1;
 
@@ -3092,6 +3105,8 @@ class PlayState extends MusicBeatState
 		{
 			combo++;
 			if(combo > 9999) combo = 9999;
+			if(combo >= maxCombo)
+				maxCombo++;
 			popUpScore(note);
 		}
 		var gainHealth:Bool = true; // prevent health gain, *if* sustains are treated as a singular note

@@ -30,7 +30,7 @@ class SUtil
 	{
 		var daPath:String = '';
 
-		#if android
+		#if ANDROIDTOOLS
 		switch (type)
 		{
 			case EXTERNAL_DATA:
@@ -42,6 +42,8 @@ class SUtil
 			case MEDIA:
 				daPath = AndroidEnvironment.getExternalStorageDirectory() + '/Android/media/' + Application.current.meta.get('packageName');
 		}
+		#elseif android
+		daPath = LimeSystem.applicationStorageDirectory;
 		#elseif ios
 		daPath = LimeSystem.documentsDirectory;
 		#end
@@ -90,7 +92,7 @@ class SUtil
 	}
 	#end
 
-	#if android
+	#if ANDROIDTOOLS
 	public static function doPermissionsShit():Void
 	{
 		if (!AndroidPermissions.getGrantedPermissions().contains(AndroidPermissions.READ_EXTERNAL_STORAGE)

@@ -26,7 +26,8 @@
 	<define name="ACHIEVEMENTS_ALLOWED" />
 	<define name="DISCORD_ALLOWED" if="desktop" unless="hl"/>
 	<define name="LOADING_SCREEN_ALLOWED" />
-	<!-- <define name="PSYCH_WATERMARKS"/> DELETE THIS TO REMOVE THE PSYCH LOGO FROM LOADING SCREEN -->
+	<!-- <define name="ANDROIDTOOLS" if="android"/> -->
+ 	<!-- <define name="PSYCH_WATERMARKS"/> DELETE THIS TO REMOVE THE PSYCH LOGO FROM LOADING SCREEN -->
 	<!-- <define name="VIDEOS_ALLOWED" if="desktop || mobile" unless="32bits || hl || NOVIDEO || rpi"/>
     <define name="CUSTOM_SHADERS_ALLOWED" if="LUA_ALLOWED"/> -->
 
@@ -37,7 +38,7 @@
 	<!-- ____________________________ Window Settings ___________________________ -->
 
 	<!--These window settings apply to all targets-->
-	<window width="1280" height="720" fps="" background="#000000" hardware="true" vsync="false" />
+	<window width="1280" height="720" background="#000000" hardware="true" vsync="false" />
 
 	<!--HTML5-specific-->
 	<window if="html5" resizable="true" />
@@ -114,7 +115,7 @@
 	<haxelib name="tjson"/>
 
 	<!-- Mobile Specific-->
-	<haxelib name="extension-androidtools" if="android" />
+	<haxelib name="extension-androidtools" if="ANDROIDTOOLS" />
 	<!--<haxelib name="hx-ios-uikit" if="ios" />-->
 
 	<!-- Disable Discord IO Thread -->
@@ -170,26 +171,23 @@
 
 	<haxedef name='no-inline' if="html5"/>
 
-		<!--Always enable Null Object Reference check-->
-		<haxedef name="HXCPP_CHECK_POINTER" />
-		<haxedef name="HXCPP_STACK_LINE" />
-		<haxedef name="HXCPP_STACK_TRACE" />
-	
-	
-		<section if="android">
-			<!-- Do whatever you want I'm tired uninstall and install everytime -->
-			<certificate path="key.keystore" password="nullfunni" alias="null" alias-password="nullfunni" unless="debug" />
+	<!--Always enable Null Object Reference check-->
+	<haxedef name="HXCPP_CHECK_POINTER" />
+	<haxedef name="HXCPP_STACK_LINE" />
+	<haxedef name="HXCPP_STACK_TRACE" />
+		
+	<section if="android">
+		<!-- Do whatever you want I'm tired uninstall and install everytime -->
+		<certificate path="key.keystore" password="nullfunni" alias="null" alias-password="nullfunni" unless="debug" />
+		<!--Target SDK-->
+		<android target-sdk-version="29" if="EXTERNAL || MEDIA"/>
+        <config:android permission="android.permission.MANAGE_EXTERNAL_STORAGE" if="EXTERNAL || MEDIA"/>
+	</section>
 
-			<!--Target SDK-->
-			<android target-sdk-version="29" if="EXTERNAL || MEDIA"/>
-
-            <config:android permission="android.permission.MANAGE_EXTERNAL_STORAGE" if="EXTERNAL || MEDIA"/>
-		</section>
-
-		<section if="ios">
-			<define name='objc' />
-			<ios linker-flags='-ObjC' />
-		</section>
+	<section if="ios">
+		<define name='objc' />
+		<ios linker-flags='-ObjC' />
+	</section>
 
 	<!--Avoid memory leaks with for loops in HScript-->
 	<haxedef name="loop_unroll_max_cost" value="25" />
@@ -198,7 +196,7 @@
 	<!--Macro fixes-->
 	<haxeflag name="--macro" value="allowPackage('flash')" />
 	<haxeflag name="--macro" value="include('my.pack')" />
-	<haxeflag name="--macro" value="macros.Keep.keepClasses()" />
+	<haxeflag name="--macro" value="macros.Keep.keepClasses()" unless="mobile" />
 
 
 	<!-- _________________________________ Custom _______________________________ -->

@@ -6,13 +6,13 @@
 	<SubTexture name="freeplay basic0001" x="0" y="0" width="732" height="220" frameX="0" frameY="0" frameWidth="732" frameHeight="221"/>
 	<SubTexture name="freeplay basic0002" x="737" y="0" width="730" height="221" frameX="-2" frameY="0" frameWidth="732" frameHeight="221"/>
 	<SubTexture name="freeplay basic0003" x="737" y="0" width="730" height="221" frameX="-2" frameY="0" frameWidth="732" frameHeight="221"/>
-	<SubTexture name="freeplay select0000" x="0" y="226" width="756" height="224" frameX="-9" frameY="-35" frameWidth="847" frameHeight="276"/>
-	<SubTexture name="freeplay select0001" x="761" y="226" width="847" height="276"/>
-	<SubTexture name="freeplay select0002" x="761" y="226" width="847" height="276"/>
-	<SubTexture name="freeplay select0003" x="0" y="507" width="818" height="246" frameX="-3" frameY="-15" frameWidth="820" frameHeight="261"/>
-	<SubTexture name="freeplay select0004" x="0" y="507" width="818" height="246" frameX="-3" frameY="-15" frameWidth="820" frameHeight="261"/>
-	<SubTexture name="freeplay select0005" x="823" y="507" width="820" height="261" frameX="-3" frameY="-11" frameWidth="820" frameHeight="261"/>
-	<SubTexture name="freeplay select0006" x="823" y="507" width="820" height="261" frameX="-3" frameY="-11" frameWidth="820" frameHeight="261"/>
+	<SubTexture name="freeplay selected0000" x="0" y="226" width="756" height="224" frameX="-9" frameY="-35" frameWidth="847" frameHeight="276"/>
+	<SubTexture name="freeplay selected0001" x="761" y="226" width="847" height="276"/>
+	<SubTexture name="freeplay selected0002" x="761" y="226" width="847" height="276"/>
+	<SubTexture name="freeplay selected0003" x="0" y="507" width="818" height="246" frameX="-3" frameY="-15" frameWidth="820" frameHeight="261"/>
+	<SubTexture name="freeplay selected0004" x="0" y="507" width="818" height="246" frameX="-3" frameY="-15" frameWidth="820" frameHeight="261"/>
+	<SubTexture name="freeplay selected0005" x="823" y="507" width="820" height="261" frameX="-3" frameY="-11" frameWidth="820" frameHeight="261"/>
+	<SubTexture name="freeplay selected0006" x="823" y="507" width="820" height="261" frameX="-3" frameY="-11" frameWidth="820" frameHeight="261"/>
 	<SubTexture name="freeplay select loop0000" x="0" y="507" width="818" height="246" frameX="-4" frameY="-14" frameWidth="820" frameHeight="261"/>
 	<SubTexture name="freeplay select loop0001" x="0" y="507" width="818" height="246" frameX="-4" frameY="-14" frameWidth="820" frameHeight="261"/>
 	<SubTexture name="freeplay select loop0002" x="823" y="507" width="820" height="261" frameX="-4" frameY="-14" frameWidth="820" frameHeight="261"/>

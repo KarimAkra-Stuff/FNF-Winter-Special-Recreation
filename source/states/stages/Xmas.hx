@@ -4,6 +4,7 @@ import shaders.RGBPalette;
 import backend.BaseStage.Countdown;
 import states.stages.objects.Snow;
 
+@:access(states.PlayState)
 class Xmas extends BaseStage
 {
     public var sky:FlxSprite;
@@ -28,6 +29,7 @@ class Xmas extends BaseStage
     public var deadLimos:FlxSprite;
     public var gift:FlxSprite;
     public var snow:Snow;
+    public var snow2:Snow;
     public var vignette:FlxSprite;
 
     var treeRGBs:Array<Array<FlxColor>>  = 
@@ -41,10 +43,15 @@ class Xmas extends BaseStage
 
 	override function create()
 	{
+        if(songName.toLowerCase() == 'eggnog')
+            defaultCamZoom = .69;
+        PlayState.instance.camZooming = true;
+        
 		sky = new FlxSprite(-2350, -2810).loadGraphic(Paths.image('xmas/skynight'));
         add(sky);
 
-        mountainLeft = new FlxSprite(-2340, -1160).loadGraphic(Paths.image('xmas/mountain_left'));
+        mountainLeft = new FlxSprite(-2440, -1160).loadGraphic(Paths.image('xmas/mountain_left'));
+        mountainLeft.scrollFactor.x = 0.4;
         add(mountainLeft);
 
         mountainRight = new FlxSprite(1100, -1160);
@@ -52,9 +59,11 @@ class Xmas extends BaseStage
         mountainRight.animation.addByPrefix('mountain outline', 'mountain glow', 24);
         mountainRight.animation.addByPrefix('mountain', 'mountain static');
         mountainRight.animation.play('mountain', true);
+        mountainRight.scrollFactor.x = 0.5;
         add(mountainRight);
 
-        town = new FlxSprite(-880, -660).loadGraphic(Paths.image('xmas/town_back'));
+        town = new FlxSprite(-918, -684).loadGraphic(Paths.image('xmas/town_back'));
+        town.scrollFactor.x = .6;
         add(town);
 
         leftTreeBGSh = new FlxSprite(-1250, -381).loadGraphic(Paths.image('xmas/tree_left_back_siluet'));
@@ -136,14 +145,16 @@ class Xmas extends BaseStage
         gift = new FlxSprite(-16, 972).loadGraphic(Paths.image('xmas/gift'));
         add(gift);
 
-        vignette = new FlxSprite(-1290, -1300).loadGraphic(Paths.image('xmas/vignette'));
+        vignette = new FlxSprite(-1650, -1380).loadGraphic(Paths.image('xmas/vignette'));
         add(vignette);
     }
 	
 	override function createPost()
 	{
-        snow = new Snow(-1500.0, -1200.0, 8, 6);
+        snow = new Snow(-1500.0, -1200.0, 9, 4);
         add(snow);
+        snow2 = new Snow(-1500.0, -1200.0, 9, 4);
+        add(snow2);
 	}
 
 	override function update(elapsed:Float)
@@ -209,6 +220,32 @@ class Xmas extends BaseStage
 		switch(eventName)
 		{
 			case "My Event":
+            case "Blackscreen":
+                var black:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
+                black.alpha = 0;
+                black.cameras = [camOther];
+                add(black);
+                FlxTween.tween(black, {alpha: 1}, flValue1, {ease: FlxEase.sineOut});
+            case "eggnog ending":
+                game.isCameraOnForcedPos = true;
+                FlxTween.tween(game.camFollow, {x: 1200, y: -100}, 17, {ease: FlxEase.sineInOut});
+            case "fireworks":
+                new FlxTimer().start(1.2, function(tmr:FlxTimer) {
+                    if(FlxG.random.bool(75))
+                    {
+                        var firework:FlxSprite = new FlxSprite(FlxG.random.int(-415, 1400), FlxG.random.int(-1200, -1700));
+                        trace('fire work spanwed at ${firework.x} - ${firework.y}');
+                        firework.frames = Paths.getSparrowAtlas('xmas/firework');
+                        firework.animation.addByPrefix('explod', 'blow', 24, false);
+                        firework.color = FlxG.random.getObject(treeRGBs)[0];
+                        firework.animation.play('explod');
+                        insert(game.members.indexOf(town) - 1, firework);
+                        firework.animation.finishCallback = (name:String) -> {
+                            firework.destroy();
+                            remove(firework);
+                        };
+                    }
+                }, FlxG.random.int(15, 25));
 		}
 	}
 	override function eventPushed(event:objects.Note.EventNote)
@@ -248,6 +285,15 @@ class Xmas extends BaseStage
 						//precacheSound('mySoundThree') //preloads sounds/mySoundThree.ogg
 						//precacheMusic('myMusicThree') //preloads music/myMusicThree.ogg
 				}
+		}
+	}
+	override function eventEarlyTrigger(event:objects.Note.EventNote):Float
+	{
+		// used for triggering an event few millieseconds earlier
+		return switch(event.event)
+		{
+			case "fireworks": 1200;
+            default: 0;
 		}
 	}
 

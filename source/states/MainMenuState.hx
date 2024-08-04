@@ -69,7 +69,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.antialiasing = ClientPrefs.data.antialiasing;
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/' + optionShit[i]);
 			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
-			menuItem.animation.addByPrefix('just selected', optionShit[i] + " select", 24, false);
+			menuItem.animation.addByPrefix('just selected', optionShit[i] + " selected", 24, false);
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " select loop", 24);
 			menuItem.scale.set(0.6, 0.6);
 			menuItem.updateHitbox();
@@ -167,12 +167,14 @@ class MainMenuState extends MusicBeatState
 							FlxFlicker.flicker(magenta, 1.1, 0.15, false);
 						FlxFlicker.flicker(menuItems.members[curSelected], 1, 0.06, false, false, function(flick:FlxFlicker)
 						{
+							pointer.visible = false;
 							switch (optionShit[curSelected])
 							{
 								case 'story':
 									MusicBeatState.switchState(new StoryMenuState());
 								case 'freeplay':
-									MusicBeatState.switchState(new FreeplayState());
+									MusicBeatState.switchState(new states.freeplay.FreeplayState());
+									// MusicBeatState.switchState(new FreeplayState());
 
 								#if MODS_ALLOWED
 								case 'mods':

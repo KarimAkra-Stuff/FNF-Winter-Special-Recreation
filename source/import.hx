@@ -18,7 +18,7 @@ import mobile.backend.MobileData;
 import mobile.backend.SUtil;
 
 //Android
-#if android
+#if ANDROIDTOOLS
 import android.content.Context as AndroidContext;
 import android.widget.Toast as AndroidToast;
 import android.os.Environment as AndroidEnvironment;

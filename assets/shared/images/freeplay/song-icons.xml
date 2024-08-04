@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="song-icons.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="parents-static0000" x="0" y="0" width="260" height="247"/>
+	<SubTexture name="parents-select0000" x="265" y="0" width="260" height="247"/>
+	<SubTexture name="monster-static0000" x="530" y="0" width="260" height="247"/>
+	<SubTexture name="monster-select0000" x="0" y="252" width="260" height="247"/>
+	<SubTexture name="none-static0000" x="265" y="252" width="260" height="247"/>
+	<SubTexture name="none-select0000" x="530" y="252" width="260" height="247"/>
+</TextureAtlas>

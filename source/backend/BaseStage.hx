@@ -15,9 +15,10 @@ enum Countdown
 	START;
 }
 
+@:access(states.PlayState)
 class BaseStage extends FlxBasic
 {
-	private var game(get, never):Dynamic;
+	private var game(get, never):PlayState;
 	public var onPlayState(get, never):Bool;
 
 	// some variables for convenience
@@ -83,6 +84,7 @@ class BaseStage extends FlxBasic
 	public function eventCalled(eventName:String, value1:String, value2:String, flValue1:Null<Float>, flValue2:Null<Float>, strumTime:Float) {}
 	public function eventPushed(event:EventNote) {}
 	public function eventPushedUnique(event:EventNote) {}
+	public function eventEarlyTrigger(event:EventNote):Float { return 0.0; }
 
 	// Things to replace FlxGroup stuff and inject sprites directly into the state
 	function add(object:FlxBasic) return FlxG.state.add(object);

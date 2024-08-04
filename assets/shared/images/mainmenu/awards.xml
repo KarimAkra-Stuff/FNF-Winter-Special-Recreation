@@ -6,13 +6,13 @@
 	<SubTexture name="awards basic0001" x="0" y="0" width="761" height="212" frameX="0" frameY="0" frameWidth="764" frameHeight="217"/>
 	<SubTexture name="awards basic0002" x="766" y="0" width="763" height="217" frameX="-1" frameY="0" frameWidth="764" frameHeight="217"/>
 	<SubTexture name="awards basic0003" x="766" y="0" width="763" height="217" frameX="-1" frameY="0" frameWidth="764" frameHeight="217"/>
-	<SubTexture name="awards select0000" x="0" y="222" width="759" height="196" frameX="-4" frameY="-19" frameWidth="892" frameHeight="263"/>
-	<SubTexture name="awards select0001" x="764" y="222" width="890" height="254" frameX="-2" frameY="0" frameWidth="892" frameHeight="263"/>
-	<SubTexture name="awards select0002" x="764" y="222" width="890" height="254" frameX="-2" frameY="0" frameWidth="892" frameHeight="263"/>
-	<SubTexture name="awards select0003" x="0" y="481" width="882" height="259" frameX="0" frameY="-3" frameWidth="882" frameHeight="259"/>
-	<SubTexture name="awards select0004" x="0" y="481" width="882" height="259" frameX="0" frameY="-3" frameWidth="882" frameHeight="259"/>
-	<SubTexture name="awards select0005" x="887" y="481" width="880" height="258" frameX="0" frameY="-5" frameWidth="882" frameHeight="259"/>
-	<SubTexture name="awards select0006" x="887" y="481" width="880" height="258" frameX="0" frameY="-5" frameWidth="882" frameHeight="259"/>
+	<SubTexture name="awards selected0000" x="0" y="222" width="759" height="196" frameX="-4" frameY="-19" frameWidth="892" frameHeight="263"/>
+	<SubTexture name="awards selected0001" x="764" y="222" width="890" height="254" frameX="-2" frameY="0" frameWidth="892" frameHeight="263"/>
+	<SubTexture name="awards selected0002" x="764" y="222" width="890" height="254" frameX="-2" frameY="0" frameWidth="892" frameHeight="263"/>
+	<SubTexture name="awards selected0003" x="0" y="481" width="882" height="259" frameX="0" frameY="-3" frameWidth="882" frameHeight="259"/>
+	<SubTexture name="awards selected0004" x="0" y="481" width="882" height="259" frameX="0" frameY="-3" frameWidth="882" frameHeight="259"/>
+	<SubTexture name="awards selected0005" x="887" y="481" width="880" height="258" frameX="0" frameY="-5" frameWidth="882" frameHeight="259"/>
+	<SubTexture name="awards selected0006" x="887" y="481" width="880" height="258" frameX="0" frameY="-5" frameWidth="882" frameHeight="259"/>
 	<SubTexture name="awards select loop0000" x="0" y="481" width="882" height="259"/>
 	<SubTexture name="awards select loop0001" x="0" y="481" width="882" height="259"/>
 	<SubTexture name="awards select loop0002" x="887" y="481" width="880" height="258" frameX="0" frameY="-1" frameWidth="882" frameHeight="259"/>

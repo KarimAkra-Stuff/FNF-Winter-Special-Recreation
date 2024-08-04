@@ -1,11 +1,9 @@
 package backend;
 
-import mobile.backend.TouchFunctions;
 import flixel.FlxState;
-import mobile.states.CopyState;
 
 class NewgroundsSplash extends FlxState {
-	final nextState:Class<FlxState> = #if (mobile && MODS_ALLOWED) CopyState.checkExistingFiles() ? Main.game.initialState : CopyState #else Main.game.initialState #end;
+	final nextState:Class<FlxState> = Main.game.initialState;
     var ng:FlxSprite;
 
     override function create(){

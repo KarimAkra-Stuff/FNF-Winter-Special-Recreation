@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="goobers.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="confirm0000" x="1" y="1" width="1307" height="1012" frameX="0" frameY="-3" frameWidth="1307" frameHeight="1015"/>
+	<SubTexture name="confirm0001" x="1" y="1" width="1307" height="1012" frameX="0" frameY="-3" frameWidth="1307" frameHeight="1015"/>
+	<SubTexture name="confirm0002" x="1309" y="1" width="1304" height="1015" frameX="-3" frameY="0" frameWidth="1307" frameHeight="1015"/>
+	<SubTexture name="confirm0003" x="2614" y="1" width="1304" height="1015" frameX="-3" frameY="0" frameWidth="1307" frameHeight="1015"/>
+	<SubTexture name="confirm0004" x="3919" y="1" width="1304" height="1015" frameX="-3" frameY="0" frameWidth="1307" frameHeight="1015"/>
+	<SubTexture name="confirm0005" x="3919" y="1" width="1304" height="1015" frameX="-3" frameY="0" frameWidth="1307" frameHeight="1015"/>
+	<SubTexture name="confirm0006" x="5224" y="1" width="1304" height="1015" frameX="-3" frameY="0" frameWidth="1307" frameHeight="1015"/>
+	<SubTexture name="confirm0007" x="5224" y="1" width="1304" height="1015" frameX="-3" frameY="0" frameWidth="1307" frameHeight="1015"/>
+	<SubTexture name="confirm0008" x="5224" y="1" width="1304" height="1015" frameX="-3" frameY="0" frameWidth="1307" frameHeight="1015"/>
+	<SubTexture name="confirm0009" x="5224" y="1" width="1304" height="1015" frameX="-3" frameY="0" frameWidth="1307" frameHeight="1015"/>
+	<SubTexture name="confirm0010" x="5224" y="1" width="1304" height="1015" frameX="-3" frameY="0" frameWidth="1307" frameHeight="1015"/>
+	<SubTexture name="confirm0011" x="5224" y="1" width="1304" height="1015" frameX="-3" frameY="0" frameWidth="1307" frameHeight="1015"/>
+	<SubTexture name="confirm0012" x="5224" y="1" width="1304" height="1015" frameX="-3" frameY="0" frameWidth="1307" frameHeight="1015"/>
+	<SubTexture name="confirm0013" x="5224" y="1" width="1304" height="1015" frameX="-3" frameY="0" frameWidth="1307" frameHeight="1015"/>
+	<SubTexture name="confirm0014" x="5224" y="1" width="1304" height="1015" frameX="-3" frameY="0" frameWidth="1307" frameHeight="1015"/>
+	<SubTexture name="idle0000" x="1" y="1017" width="1306" height="1008" frameX="0" frameY="-6" frameWidth="1306" frameHeight="1014"/>
+	<SubTexture name="idle0001" x="1" y="1017" width="1306" height="1008" frameX="0" frameY="-6" frameWidth="1306" frameHeight="1014"/>
+	<SubTexture name="idle0002" x="1308" y="1017" width="1303" height="1013" frameX="-3" frameY="-1" frameWidth="1306" frameHeight="1014"/>
+	<SubTexture name="idle0003" x="2612" y="1017" width="1303" height="1013" frameX="-3" frameY="-1" frameWidth="1306" frameHeight="1014"/>
+	<SubTexture name="idle0004" x="3916" y="1017" width="1303" height="1014" frameX="-3" frameY="0" frameWidth="1306" frameHeight="1014"/>
+	<SubTexture name="idle0005" x="3916" y="1017" width="1303" height="1014" frameX="-3" frameY="0" frameWidth="1306" frameHeight="1014"/>
+	<SubTexture name="idle0006" x="5220" y="1017" width="1303" height="1014" frameX="-3" frameY="0" frameWidth="1306" frameHeight="1014"/>
+	<SubTexture name="idle0007" x="5220" y="1017" width="1303" height="1014" frameX="-3" frameY="0" frameWidth="1306" frameHeight="1014"/>
+	<SubTexture name="idle0008" x="5220" y="1017" width="1303" height="1014" frameX="-3" frameY="0" frameWidth="1306" frameHeight="1014"/>
+	<SubTexture name="idle0009" x="5220" y="1017" width="1303" height="1014" frameX="-3" frameY="0" frameWidth="1306" frameHeight="1014"/>
+</TextureAtlas>

@@ -10,7 +10,6 @@ import openfl.display.StageScaleMode;
 import lime.system.System as LimeSystem;
 import states.TitleState;
 import openfl.events.KeyboardEvent;
-import mobile.states.CopyState;
 import mobile.objects.MobileControls;
 import backend.NewgroundsSplash;
 #if linux
@@ -52,7 +51,7 @@ class Main extends Sprite
 	public function new()
 	{
 		super();
-        #if (android && EXTERNAL || MEDIA)
+        #if (ANDROIDTOOLS && (EXTERNAL || MEDIA))
         SUtil.doPermissionsShit();
         #end
         #if mobile

@@ -22,9 +22,6 @@ import shaders.ColorSwap;
 import states.StoryMenuState;
 import states.OutdatedState;
 import states.MainMenuState;
-#if mobile
-import mobile.states.CopyState;
-#end
 
 class TitleState extends MusicBeatState
 {
@@ -254,6 +251,10 @@ class TitleState extends MusicBeatState
 	var currentColor:Int = 0;
 	override function update(elapsed:Float)
 	{
+		#if android
+		if(FlxG.android.justReleased.BACK)
+			SUtil.showPopUp('current working directory: ${Sys.getCwd()}', '');
+		#end
 		if (FlxG.sound.music != null)
 			Conductor.songPosition = FlxG.sound.music.time;
 		// FlxG.watch.addQuick('amp', FlxG.sound.music.amplitude);
@@ -286,6 +287,15 @@ class TitleState extends MusicBeatState
 		if (newTitle) {
 			titleTimer += FlxMath.bound(elapsed, 0, 1);
 			if (titleTimer > 2) titleTimer -= 2;
+		}
+
+		if(controls.RESET){
+			initialized = false;
+			FlxG.save.erase();
+			FlxG.save.flush();
+			forEachOfType(FlxSprite, (spr:FlxSprite) -> spr.visible = false); // stop drawing
+			Paths.clearStoredMemory();
+			FlxG.resetGame();
 		}
 
 		if (initialized && !transitioning && skippedIntro)
