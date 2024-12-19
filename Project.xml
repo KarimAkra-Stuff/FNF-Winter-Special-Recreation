@@ -26,7 +26,7 @@
 	<define name="ACHIEVEMENTS_ALLOWED" />
 	<define name="DISCORD_ALLOWED" if="desktop" unless="hl"/>
 	<define name="LOADING_SCREEN_ALLOWED" />
-	<!-- <define name="ANDROIDTOOLS" if="android"/> -->
+	<define name="ANDROIDTOOLS" if="android"/>
  	<!-- <define name="PSYCH_WATERMARKS"/> DELETE THIS TO REMOVE THE PSYCH LOGO FROM LOADING SCREEN -->
 	<!-- <define name="VIDEOS_ALLOWED" if="desktop || mobile" unless="32bits || hl || NOVIDEO || rpi"/>
     <define name="CUSTOM_SHADERS_ALLOWED" if="LUA_ALLOWED"/> -->
@@ -111,7 +111,7 @@
 	<haxelib name="hxCodec" if="VIDEOS_ALLOWED" unless="ios"/>
 	<haxelib name="hxvlc" if="VIDEOS_ALLOWED ios"/>
 	<haxelib name="hxdiscord_rpc" if="DISCORD_ALLOWED"/>
-	<haxelib name="flxanimate" unless="html5"/>
+	<!-- <haxelib name="flxanimate" unless="html5"/> -->
 	<haxelib name="tjson"/>
 
 	<!-- Mobile Specific-->
@@ -198,6 +198,12 @@
 	<haxeflag name="--macro" value="include('my.pack')" />
 	<haxeflag name="--macro" value="macros.Keep.keepClasses()" unless="mobile" />
 
+	<section if="mobile">
+		<architecture exclude="armv7" if="ONLY_ARM64" unless="UNIVERSAL"/>
+		<architecture include="arm64" if="ONLY_ARM64 || UNIVERSAL" />
+		<architecture include="armv7" if="ONLY_ARMV7 || UNIVERSAL" />
+		<architecture exclude="arm64" if="ONLY_ARMV7" unless="UNIVERSAL"/>
+	</section>
 
 	<!-- _________________________________ Custom _______________________________ -->
 

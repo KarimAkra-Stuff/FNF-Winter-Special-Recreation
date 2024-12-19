@@ -231,10 +231,9 @@ class Xmas extends BaseStage
                 FlxTween.tween(game.camFollow, {x: 1200, y: -100}, 17, {ease: FlxEase.sineInOut});
             case "fireworks":
                 new FlxTimer().start(1.2, function(tmr:FlxTimer) {
-                    if(FlxG.random.bool(75))
+                    if(FlxG.random.bool(90))
                     {
                         var firework:FlxSprite = new FlxSprite(FlxG.random.int(-415, 1400), FlxG.random.int(-1200, -1700));
-                        trace('fire work spanwed at ${firework.x} - ${firework.y}');
                         firework.frames = Paths.getSparrowAtlas('xmas/firework');
                         firework.animation.addByPrefix('explod', 'blow', 24, false);
                         firework.color = FlxG.random.getObject(treeRGBs)[0];
@@ -245,7 +244,7 @@ class Xmas extends BaseStage
                             remove(firework);
                         };
                     }
-                }, FlxG.random.int(15, 25));
+                }, FlxG.random.int(20, 25));
 		}
 	}
 	override function eventPushed(event:objects.Note.EventNote)
